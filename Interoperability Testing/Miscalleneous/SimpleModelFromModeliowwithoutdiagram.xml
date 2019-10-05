@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.opengroup.org/xsd/archimate/3.0/" identifier="m-6dc6fb3a-a4ee-42ff-99ed-b6deae43760d" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.0/archimate3_Diagram.xsd">
+    <name xml:lang="fr">Model</name>
+    <metadata>
+        <schema>Modelio ArchiMate</schema>
+        <schemaversion>3.6</schemaversion>
+    </metadata>
+    <elements>
+        <element xsi:type="BusinessActor" identifier="m-bbccf894-3a84-4fbb-812e-8630fcfefdd1">
+            <name xml:lang="fr">Business Actor</name>
+        </element>
+        <element xsi:type="BusinessActor" identifier="m-4d0509fa-42b0-4874-ae85-55cfa530f719">
+            <name xml:lang="fr">Business Actor1</name>
+        </element>
+    </elements>
+    <relationships>
+        <relationship xsi:type="Association" source="m-bbccf894-3a84-4fbb-812e-8630fcfefdd1" target="m-4d0509fa-42b0-4874-ae85-55cfa530f719" identifier="m-aa539b3a-489a-4679-95f1-bf7d982b5cdc">
+            <name xml:lang="fr"></name>
+        </relationship>
+    </relationships>
+    <organizations>
+        <item identifier="ref-28790a77-7d1e-4406-bf27-8a23b97d70e7">
+            <label xml:lang="fr">Business</label>
+            <item identifier="ref-bbccf894-3a84-4fbb-812e-8630fcfefdd1" identifierRef="m-bbccf894-3a84-4fbb-812e-8630fcfefdd1">
+                <label xml:lang="fr">Business Actor</label>
+            </item>
+            <item identifier="ref-4d0509fa-42b0-4874-ae85-55cfa530f719" identifierRef="m-4d0509fa-42b0-4874-ae85-55cfa530f719">
+                <label xml:lang="fr">Business Actor1</label>
+            </item>
+        </item>
+        <item identifier="ref-4c19c218-b498-45d5-a044-4ae358bb7277">
+            <label xml:lang="fr">Application</label>
+        </item>
+        <item identifier="ref-ac850cdf-34f4-408f-b1e8-108494b72636">
+            <label xml:lang="fr">Technology</label>
+        </item>
+        <item identifier="ref-2ba180bd-0e47-4f71-994e-882fce0611b8">
+            <label xml:lang="fr">Motivation</label>
+        </item>
+        <item identifier="ref-1259f52c-167f-4448-b746-2302815977d1">
+            <label xml:lang="fr">Implementation</label>
+        </item>
+        <item identifier="ref-982f72bb-c999-4661-b9cb-0f2d76a46234">
+            <label xml:lang="fr">Physical</label>
+        </item>
+        <item identifier="ref-1c0f3f63-36b5-496a-9aa5-11e223753f1c">
+            <label xml:lang="fr">Strategy</label>
+        </item>
+    </organizations>
+</model>

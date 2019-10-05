@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.opengroup.org/xsd/archimate/3.0/" identifier="m-6423fcc0-3b66-4c71-8c20-d3130380bb89" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.0/archimate3_Diagram.xsd">
+    <name xml:lang="fr">Model</name>
+    <metadata>
+        <schema>Modelio ArchiMate</schema>
+        <schemaversion>3.6</schemaversion>
+    </metadata>
+    <elements>
+        <element xsi:type="BusinessActor" identifier="m-09777600-da24-46d4-a6d9-37a6566d26ab">
+            <name xml:lang="fr">Business Actor</name>
+        </element>
+        <element xsi:type="BusinessActor" identifier="m-04e73de9-652e-4894-841b-9e9858633c1a">
+            <name xml:lang="fr">Business Actor1</name>
+        </element>
+    </elements>
+    <relationships>
+        <relationship xsi:type="Association" source="m-09777600-da24-46d4-a6d9-37a6566d26ab" target="m-04e73de9-652e-4894-841b-9e9858633c1a" identifier="m-56be0afe-acc7-4b32-b1d1-5f6954b2c4ec">
+            <name xml:lang="fr"></name>
+        </relationship>
+    </relationships>
+    <organizations>
+        <item identifier="ref-023b2dca-a61d-4064-a15a-9d2cdd024402">
+            <label xml:lang="fr">Application</label>
+        </item>
+        <item identifier="ref-8935af2d-cfcb-4a17-868d-0beaa76a20b2">
+            <label xml:lang="fr">Business</label>
+            <item identifier="ref-09777600-da24-46d4-a6d9-37a6566d26ab" identifierRef="m-09777600-da24-46d4-a6d9-37a6566d26ab">
+                <label xml:lang="fr">Business Actor</label>
+            </item>
+            <item identifier="ref-04e73de9-652e-4894-841b-9e9858633c1a" identifierRef="m-04e73de9-652e-4894-841b-9e9858633c1a">
+                <label xml:lang="fr">Business Actor1</label>
+            </item>
+        </item>
+        <item identifier="ref-a6078e37-1715-44b0-b760-ba03b7501a3b">
+            <label xml:lang="fr">Implementation</label>
+        </item>
+        <item identifier="ref-4aec8e47-5cfa-44df-ad2d-a6f308087c38">
+            <label xml:lang="fr">Motivation</label>
+        </item>
+        <item identifier="ref-3c0c2726-4318-4c0d-b257-0e8e6e2bf92e">
+            <label xml:lang="fr">Physical</label>
+        </item>
+        <item identifier="ref-b1fe53d1-a7b3-4742-987f-833127b77057">
+            <label xml:lang="fr">Strategy</label>
+        </item>
+        <item identifier="ref-4a680959-869d-4a45-bfde-c8b90b0494f5">
+            <label xml:lang="fr">Technology</label>
+        </item>
+    </organizations>
+    <organizations>
+        <item identifier="ref-506fd180-e93c-4946-88e0-a4e78850128e">
+            <label xml:lang="fr">ViewPoint</label>
+            <item identifier="ref-8c25b826-f83f-430d-8c66-f1d709455be1">
+                <label xml:lang="fr">ViewPointDiagram</label>
+            </item>
+            <item identifier="ref-e8cb5b52-a950-476f-94eb-471f1981410e" identifierRef="m-e8cb5b52-a950-476f-94eb-471f1981410e">
+                <label xml:lang="fr">ArchimateView</label>
+            </item>
+        </item>
+    </organizations>
+    <views>
+        <diagrams>
+            <view identifier="m-e8cb5b52-a950-476f-94eb-471f1981410e">
+                <name xml:lang="fr">ArchimateView</name>
+                <node xsi:type="Element" elementRef="m-09777600-da24-46d4-a6d9-37a6566d26ab" x="82" y="114" w="40" h="60" identifier="m-7c109985-489a-46a5-ab36-9c261906e67c">
+                    <style lineWidth="1">
+                        <lineColor r="0" g="0" b="0" a="100"/>
+                        <fillColor r="249" g="246" b="178" a="100"/>
+                        <font name="Arial" size="9">
+                            <color r="0" g="0" b="0" a="100"/>
+                        </font>
+                    </style>
+                </node>
+                <node xsi:type="Element" elementRef="m-04e73de9-652e-4894-841b-9e9858633c1a" x="235" y="117" w="40" h="60" identifier="m-4eab02c9-04b8-479b-a7d7-8b818296645e">
+                    <style lineWidth="1">
+                        <lineColor r="0" g="0" b="0" a="100"/>
+                        <fillColor r="249" g="246" b="178" a="100"/>
+                        <font name="Arial" size="9">
+                            <color r="0" g="0" b="0" a="100"/>
+                        </font>
+                    </style>
+                </node>
+                <connection xsi:type="Relationship" relationshipRef="m-56be0afe-acc7-4b32-b1d1-5f6954b2c4ec" source="m-7c109985-489a-46a5-ab36-9c261906e67c" target="m-4eab02c9-04b8-479b-a7d7-8b818296645e" identifier="m-346a1715-86b2-451b-a7c7-31eb7b2b5478">
+                    <style lineWidth="1">
+                        <lineColor r="0" g="0" b="0" a="100"/>
+                        <font name="Arial" size="9">
+                            <color r="0" g="0" b="0" a="100"/>
+                        </font>
+                    </style>
+                </connection>
+            </view>
+        </diagrams>
+    </views>
+</model>

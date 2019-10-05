@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.opengroup.org/xsd/archimate/3.0/" identifier="id-m-dce25409-8342-4632-858c-11cba75a4154" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.0/archimate3_Diagram.xsd">
+    <name xml:lang="fr">Model</name>
+    <metadata>
+        <schema>Modelio ArchiMate</schema>
+        <schemaversion>3.6</schemaversion>
+    </metadata>
+    <elements>
+        <element xsi:type="Resource" identifier="Resource"><name xml:lang="fr">Resource</name></element>
+        <element xsi:type="Capability" identifier="Capability"><name xml:lang="fr">Capability</name></element>
+        <element xsi:type="CourseOfAction" identifier="CourseOfAction"><name xml:lang="fr">CourseOfAcion</name></element>
+        
+        <element xsi:type="BusinessActor" identifier="BusinessActor"><name xml:lang="fr">BusinessActor</name></element>
+        <element xsi:type="BusinessRole" identifier="BusinessRole"><name xml:lang="fr">BusinessRole</name></element>
+        <element xsi:type="BusinessCollaboration" identifier="BusinessCollaboration"><name xml:lang="fr">BusinessCollaboration</name></element>
+        <element xsi:type="BusinessInterface" identifier="BusinessInterface"><name xml:lang="fr">BusinessInterface</name></element>
+        <element xsi:type="BusinessProcess" identifier="BusinessProcess"><name xml:lang="fr">BusinessProcess</name></element>
+        <element xsi:type="BusinessFunction" identifier="BusinessFunction"><name xml:lang="fr">BusinessFunction</name></element>
+        <element xsi:type="BusinessInteraction" identifier="BusinessInteraction"><name xml:lang="fr">BusinessInteraction</name></element>
+        <element xsi:type="BusinessEvent" identifier="BusinessEvent"><name xml:lang="fr">BusinessEvent</name></element>
+        <element xsi:type="BusinessService" identifier="BusinessService"><name xml:lang="fr">BusinessService</name></element>
+        <element xsi:type="BusinessObject" identifier="BusinessObject"><name xml:lang="fr">BusinessObject</name></element>
+        <element xsi:type="Contract" identifier="Contract"><name xml:lang="fr">Contract</name></element>
+        <element xsi:type="Representation" identifier="Representation"><name xml:lang="fr">Representation</name></element>
+        <element xsi:type="Product" identifier="Product"><name xml:lang="fr">Product</name></element>
+
+        <element xsi:type="ApplicationComponent" identifier="ApplicationComponent"><name xml:lang="fr">ApplicationComponent</name></element>
+        <element xsi:type="ApplicationCollaboration" identifier="ApplicationCollaboration"><name xml:lang="fr">ApplicationCollaboration</name></element>
+        <element xsi:type="ApplicationInterface" identifier="ApplicationInterface"><name xml:lang="fr">ApplicationInterface</name></element>
+        <element xsi:type="ApplicationFunction" identifier="ApplicationFunction"><name xml:lang="fr">ApplicationFunction</name></element>
+        <element xsi:type="ApplicationInteraction" identifier="ApplicationInteraction"><name xml:lang="fr">ApplicationInteraction</name></element>
+        <element xsi:type="ApplicationProcess" identifier="ApplicationProcess"><name xml:lang="fr">ApplicationProcess</name></element>
+        <element xsi:type="ApplicationEvent" identifier="ApplicationEvent"><name xml:lang="fr">ApplicationEvent</name></element>
+        <element xsi:type="ApplicationService" identifier="ApplicationService"><name xml:lang="fr">ApplicationService</name></element>     
+        <element xsi:type="DataObject" identifier="DataObject"><name xml:lang="fr">DataObject</name></element>
+
+        <element xsi:type="Node" identifier="Node"><name xml:lang="fr">Node</name></element>
+        <element xsi:type="Device" identifier="Device"><name xml:lang="fr">Device</name></element>
+        <element xsi:type="SystemSoftware" identifier="SystemSoftware"><name xml:lang="fr">SystemSoftware</name></element>
+        <element xsi:type="TechnologyCollaboration" identifier="TechnologyCollaboration"><name xml:lang="fr">TechnologyCollaboration</name></element>
+        <element xsi:type="TechnologyInterface" identifier="TechnologyInterface"><name xml:lang="fr">TechnologyInterface</name></element>
+        <element xsi:type="Path" identifier="Path"><name xml:lang="fr">Path</name></element>
+        <element xsi:type="CommunicationNetwork" identifier="CommunicationNetwork"><name xml:lang="fr">CommunicationNetwork</name></element>
+        <element xsi:type="TechnologyFunction" identifier="TechnologyFunction"><name xml:lang="fr">TechnologyFunction</name></element>
+        <element xsi:type="TechnologyProcess" identifier="TechnologyProcess"><name xml:lang="fr">TechnologyProcess</name></element>
+        <element xsi:type="TechnologyInteraction" identifier="TechnologyInteraction"><name xml:lang="fr">TechnologyInteraction</name></element>
+        <element xsi:type="TechnologyEvent" identifier="TechnologyEvent"><name xml:lang="fr">TechnologyEvent</name></element>
+        <element xsi:type="TechnologyService" identifier="TechnologyService"><name xml:lang="fr">TechnologyService</name></element>
+        <element xsi:type="Artifact" identifier="Artifact"><name xml:lang="fr">Artifact</name></element>
+        <element xsi:type="Equipment" identifier="Equipment"><name xml:lang="fr">Equipment</name></element>
+        <element xsi:type="Facility" identifier="Facility"><name xml:lang="fr">Facility</name></element>
+        <element xsi:type="DistributionNetwork" identifier="DistributionNetwork"><name xml:lang="fr">FaciDistributionNetworklity</name></element>
+        <element xsi:type="Material" identifier="Material"><name xml:lang="fr">Material</name></element>
+
+        <element xsi:type="Stakeholder" identifier="Stakeholder"><name xml:lang="fr">Stakeholder</name></element>
+        <element xsi:type="Driver" identifier="Driver"><name xml:lang="fr">Driver</name></element> 
+        <element xsi:type="Assessment" identifier="Assessment"><name xml:lang="fr">Assessment</name></element>
+        <element xsi:type="Goal" identifier="Goal"><name xml:lang="fr">Goal</name></element>
+        <element xsi:type="Outcome" identifier="Outcome"><name xml:lang="fr">Outcome</name></element>                 
+        <element xsi:type="Principle" identifier="Principle"><name xml:lang="fr">Principle</name></element> 
+        <element xsi:type="Requirement" identifier="Requirement"><name xml:lang="fr">Requirement</name></element>
+        <element xsi:type="Constraint" identifier="Constraint"><name xml:lang="fr">Constraint</name></element>         
+        <element xsi:type="Meaning" identifier="Meaning"><name xml:lang="fr">Meaning</name></element>         
+        <element xsi:type="Value" identifier="Value"><name xml:lang="fr">Value</name></element> 
+
+        <element xsi:type="WorkPackage" identifier="WorkPackage"><name xml:lang="fr">WorkPackage</name></element>     
+        <element xsi:type="Deliverable" identifier="Deliverable"><name xml:lang="fr">Deliverable</name></element> 
+        <element xsi:type="ImplementationEvent" identifier="ImplementationEvent"><name xml:lang="fr">ImplementationEvent</name></element>     
+        <element xsi:type="Plateau" identifier="Plateau"><name xml:lang="fr">Plateau</name></element> 
+        <element xsi:type="Gap" identifier="Gap"><name xml:lang="fr">Gap</name></element> 
+
+        <element xsi:type="Location" identifier="Location"><name xml:lang="fr">Location</name></element>
+        <element xsi:type="Grouping" identifier="Grouping"><name xml:lang="fr">Grouping</name></element>
+
+
+        <element xsi:type="Resource" identifier="Resource2"><name xml:lang="fr">Resource2</name></element>
+        <element xsi:type="Capability" identifier="Capability2"><name xml:lang="fr">Capability2</name></element>
+        <element xsi:type="CourseOfAction" identifier="CourseOfAction2"><name xml:lang="fr">CourseOfAction2</name></element>
+        
+        <element xsi:type="BusinessActor" identifier="BusinessActor2"><name xml:lang="fr">BusinessActor2</name></element>
+        <element xsi:type="BusinessRole" identifier="BusinessRole2"><name xml:lang="fr">BusinessRole2</name></element>
+        <element xsi:type="BusinessCollaboration" identifier="BusinessCollaboration2"><name xml:lang="fr">BusinessCollaboration2</name></element>
+        <element xsi:type="BusinessInterface" identifier="BusinessInterface2"><name xml:lang="fr">BusinessInterface2</name></element>
+        <element xsi:type="BusinessProcess" identifier="BusinessProcess2"><name xml:lang="fr">BusinessProcess2</name></element>
+        <element xsi:type="BusinessFunction" identifier="BusinessFunction2"><name xml:lang="fr">BusinessFunction2</name></element>
+        <element xsi:type="BusinessInteraction" identifier="BusinessInteraction2"><name xml:lang="fr">BusinessInteraction2</name></element>
+        <element xsi:type="BusinessEvent" identifier="BusinessEvent2"><name xml:lang="fr">BusinessEvent2</name></element>
+        <element xsi:type="BusinessService" identifier="BusinessService2"><name xml:lang="fr">BusinessService2</name></element>
+        <element xsi:type="BusinessObject" identifier="BusinessObject2"><name xml:lang="fr">BusinessObject2</name></element>
+        <element xsi:type="Contract" identifier="Contract2"><name xml:lang="fr">Contract2</name></element>
+        <element xsi:type="Representation" identifier="Representation2"><name xml:lang="fr">Representation2</name></element>
+        <element xsi:type="Product" identifier="Product2"><name xml:lang="fr">Product2</name></element>
+
+        <element xsi:type="ApplicationComponent" identifier="ApplicationComponent2"><name xml:lang="fr">ApplicationComponent2</name></element>
+        <element xsi:type="ApplicationCollaboration" identifier="ApplicationCollaboration2"><name xml:lang="fr">ApplicationCollaboration2</name></element>
+        <element xsi:type="ApplicationInterface" identifier="ApplicationInterface2"><name xml:lang="fr">ApplicationInterface2</name></element>
+        <element xsi:type="ApplicationFunction" identifier="ApplicationFunction2"><name xml:lang="fr">ApplicationFunction2</name></element>
+        <element xsi:type="ApplicationInteraction" identifier="ApplicationInteraction2"><name xml:lang="fr">ApplicationInteraction2</name></element>
+        <element xsi:type="ApplicationProcess" identifier="ApplicationProcess2"><name xml:lang="fr">ApplicationProcess2</name></element>
+        <element xsi:type="ApplicationEvent" identifier="ApplicationEvent2"><name xml:lang="fr">ApplicationEvent2</name></element>
+        <element xsi:type="ApplicationService" identifier="ApplicationService2"><name xml:lang="fr">ApplicationService2</name></element>     
+        <element xsi:type="DataObject" identifier="DataObject2"><name xml:lang="fr">DataObject2</name></element>
+
+        <element xsi:type="Node" identifier="Node2"><name xml:lang="fr">Node2</name></element>
+        <element xsi:type="Device" identifier="Device2"><name xml:lang="fr">Device2</name></element>
+        <element xsi:type="SystemSoftware" identifier="SystemSoftware2"><name xml:lang="fr">SystemSoftware2</name></element>
+        <element xsi:type="TechnologyCollaboration" identifier="TechnologyCollaboration2"><name xml:lang="fr">TechnologyCollaboration2</name></element>
+        <element xsi:type="TechnologyInterface" identifier="TechnologyInterface2"><name xml:lang="fr">TechnologyInterface2</name></element>
+        <element xsi:type="Path" identifier="Path2"><name xml:lang="fr">Path2</name></element>
+        <element xsi:type="CommunicationNetwork" identifier="CommunicationNetwork2"><name xml:lang="fr">CommunicationNetwork2</name></element>
+        <element xsi:type="TechnologyFunction" identifier="TechnologyFunction2"><name xml:lang="fr">TechnologyFunction2</name></element>
+        <element xsi:type="TechnologyProcess" identifier="TechnologyProcess2"><name xml:lang="fr">TechnologyProcess2</name></element>
+        <element xsi:type="TechnologyInteraction" identifier="TechnologyInteraction2"><name xml:lang="fr">TechnologyInteraction2</name></element>
+        <element xsi:type="TechnologyEvent" identifier="TechnologyEvent2"><name xml:lang="fr">TechnologyEvent2</name></element>
+        <element xsi:type="TechnologyService" identifier="TechnologyService2"><name xml:lang="fr">TechnologyService2</name></element>
+        <element xsi:type="Artifact" identifier="Artifact2"><name xml:lang="fr">Artifact2</name></element>
+        <element xsi:type="Equipment" identifier="Equipment2"><name xml:lang="fr">Equipment2</name></element>
+        <element xsi:type="Facility" identifier="Facility2"><name xml:lang="fr">Facility2</name></element>
+        <element xsi:type="DistributionNetwork" identifier="DistributionNetwork2"><name xml:lang="fr">DistributionNetwork2</name></element>
+        <element xsi:type="Material" identifier="Material2"><name xml:lang="fr">Material2</name></element>
+
+        <element xsi:type="Stakeholder" identifier="Stakeholder2"><name xml:lang="fr">Stakeholder2</name></element>
+        <element xsi:type="Driver" identifier="Driver2"><name xml:lang="fr">Driver2</name></element> 
+        <element xsi:type="Assessment" identifier="Assessment2"><name xml:lang="fr">Assessment2</name></element>
+        <element xsi:type="Goal" identifier="Goal2"><name xml:lang="fr">Goal2</name></element>
+        <element xsi:type="Outcome" identifier="Outcome2"><name xml:lang="fr">Outcome2</name></element>                 
+        <element xsi:type="Principle" identifier="Principle2"><name xml:lang="fr">Principle2</name></element> 
+        <element xsi:type="Requirement" identifier="Requirement2"><name xml:lang="fr">Requirement2</name></element>
+        <element xsi:type="Constraint" identifier="Constraint2"><name xml:lang="fr">Constraint2</name></element>         
+        <element xsi:type="Meaning" identifier="Meaning2"><name xml:lang="fr">Meaning2</name></element>         
+        <element xsi:type="Value" identifier="Value2"><name xml:lang="fr">Value2</name></element> 
+
+        <element xsi:type="WorkPackage" identifier="WorkPackage2"><name xml:lang="fr">WorkPackage2</name></element>     
+        <element xsi:type="Deliverable" identifier="Deliverable2"><name xml:lang="fr">Deliverable2</name></element> 
+        <element xsi:type="ImplementationEvent" identifier="ImplementationEvent2"><name xml:lang="fr">ImplementationEvent2</name></element>     
+        <element xsi:type="Plateau" identifier="Plateau2"><name xml:lang="fr">Plateau2</name></element> 
+        <element xsi:type="Gap" identifier="Gap2"><name xml:lang="fr">Gap2</name></element> 
+
+        <element xsi:type="Location" identifier="Location2"><name xml:lang="fr">Location2</name></element>
+        <element xsi:type="Grouping" identifier="Grouping2"><name xml:lang="fr">Grouping2</name></element>
+    </elements>
+    
+
+   
+       <organizations>
+        <item identifier="ref-b7f1b1b6-29bd-45a1-86a3-44642b2fd1bf">
+            <label xml:lang="fr">Application</label>
+        </item>
+        <item identifier="ref-cc714890-f267-410f-a474-922fa2514f63">
+            <label xml:lang="fr">Business</label>
+        </item>
+        <item identifier="ref-d3ecafd9-b7d1-4567-b79f-21ae4fe9c604">
+            <label xml:lang="fr">Implementation</label>
+        </item>
+        <item identifier="ref-69f60ec8-da75-465d-89ae-e4918a3e63ee">
+            <label xml:lang="fr">Motivation</label>
+        </item>
+        <item identifier="ref-6b7a4d94-9c7c-4668-b118-21e0d3ab865d">
+            <label xml:lang="fr">Physical</label>
+        </item>
+        <item identifier="ref-14caf8f8-e81e-4bd7-8fe2-e527386532fc">
+            <label xml:lang="fr">Strategy</label>
+        </item>
+        <item identifier="ref-bb15b855-c865-4476-acdf-fc65c66d6fd3">
+            <label xml:lang="fr">Technology</label>
+        </item>
+    </organizations>
+ 
+</model>

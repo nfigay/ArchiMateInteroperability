@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model identifier="m-dce25409-8342-4632-858c-11cba75a4154" xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.0/archimate3_Diagram.xsd">
+	<name>Model</name>
+	<elements>
+		<element identifier="m-71daad14-7136-4e1b-88dc-ca4d4cf90659" xsi:type="Location">
+			<name>Location 014</name>
+		</element>
+		<element identifier="m-e1375531-65ff-453f-9e6e-67739ba48675" xsi:type="Grouping">
+			<name>Grouping 015</name>
+		</element>
+		<element identifier="m-e5da151c-94f9-4ecc-a9e9-e331c96290f2" xsi:type="ApplicationComponent">
+			<name>Application Component 029</name>
+		</element>
+		<element identifier="m-c4952492-b621-4708-a60a-d163a162bbed" xsi:type="ApplicationCollaboration">
+			<name>Application Collaboration 030</name>
+		</element>
+		<element identifier="m-7b207252-53ae-4290-815a-7b679091448e" xsi:type="ApplicationInterface">
+			<name>Application Interface 031</name>
+		</element>
+		<element identifier="m-b99c32ac-bbc0-44ad-aa12-f0369a3078b8" xsi:type="ApplicationProcess">
+			<name>Application Process 032</name>
+		</element>
+		<element identifier="m-48f39485-b7f8-4539-9dae-266aae73b65b" xsi:type="ApplicationFunction">
+			<name>Application Function 033</name>
+		</element>
+		<element identifier="m-ab1845ae-8deb-4113-afc2-c023094a362b" xsi:type="ApplicationInteraction">
+			<name>Application Interaction 034</name>
+		</element>
+		<element identifier="m-902a0093-131b-448e-b588-84d3eda3e7c0" xsi:type="ApplicationService">
+			<name>Application Service 035</name>
+		</element>
+		<element identifier="m-07daf2ca-8d5e-4fb9-9722-abf8c5950df6" xsi:type="ApplicationEvent">
+			<name>Application Event 036</name>
+		</element>
+		<element identifier="m-12ce9d22-bddf-41af-a859-0fcfdba131a3" xsi:type="DataObject">
+			<name>Data Object 037</name>
+		</element>
+		<element identifier="m-2ccccc12-aa33-4744-a790-1ea338d2f4fe" xsi:type="BusinessActor">
+			<name>Business Actor 016</name>
+		</element>
+		<element identifier="m-6bf878f5-9d7a-465d-b557-a2ded789a81c" xsi:type="BusinessRole">
+			<name>Business Role 017</name>
+		</element>
+		<element identifier="m-dcb4f941-c4db-460b-981e-de581c136873" xsi:type="BusinessCollaboration">
+			<name>Business Collaboration 018</name>
+		</element>
+		<element identifier="m-be472c6a-4338-433f-98c6-d2aca88a7427" xsi:type="BusinessInterface">
+			<name>Business Interface 019</name>
+		</element>
+		<element identifier="m-77cc5a28-c5de-4b18-9d63-8accd2b0d066" xsi:type="BusinessProcess">
+			<name>Business Process 020</name>
+		</element>
+		<element identifier="m-8224d3ae-d7df-4fa5-9b3d-725c34d9b4ce" xsi:type="BusinessFunction">
+			<name>Business Function 021</name>
+		</element>
+		<element identifier="m-afa41b67-2e67-4dc3-8579-1249a31a6d33" xsi:type="BusinessInteraction">
+			<name>Business Interaction 022</name>
+		</element>
+		<element identifier="m-4ef83aa1-456d-4746-98eb-c7bfe74a101f" xsi:type="BusinessService">
+			<name>Business Service 023</name>
+		</element>
+		<element identifier="m-cf71d6ff-7c9d-456d-a4f7-9bd9562de5cd" xsi:type="BusinessEvent">
+			<name>Business Event 024</name>
+		</element>
+		<element identifier="m-8659a79b-5306-4155-a8ae-ec70e646c595" xsi:type="BusinessObject">
+			<name>Business Object 025</name>
+		</element>
+		<element identifier="m-4617bc48-782f-41ba-b1b0-7e0354d08087" xsi:type="BusinessObject">
+			<name>Contract 026</name>
+		</element>
+		<element identifier="m-b5ec234b-a640-4e48-b565-8341707e5809" xsi:type="Representation">
+			<name>Representation 027</name>
+		</element>
+		<element identifier="m-b030744c-966f-4f74-9eee-c0928412d764" xsi:type="Product">
+			<name>Product 028</name>
+		</element>
+		<element identifier="m-a2535cbd-cf69-4336-a83b-ba834bcc9916" xsi:type="Facility">
+			<name>Facility 038</name>
+		</element>
+		<element identifier="m-d323efe5-8b5d-4340-866c-1ba8611408e6" xsi:type="Equipment">
+			<name>Equipment 039</name>
+		</element>
+		<element identifier="m-88201809-3140-4612-ac3e-94b6cbdd7c52" xsi:type="Material">
+			<name>Material 040</name>
+		</element>
+		<element identifier="m-04899d53-bb94-421c-a363-1d5e20400ce7" xsi:type="Node">
+			<name>Node 001</name>
+		</element>
+		<element identifier="m-e65301f5-2467-41ff-bef4-8a4180ab0aae" xsi:type="Node">
+			<name>Technology Collaboration 002</name>
+		</element>
+		<element identifier="m-f92b6973-3f14-4acd-b48f-bddd8a4e4795" xsi:type="Device">
+			<name>Device 003</name>
+		</element>
+		<element identifier="m-94239bd1-5c42-44f1-8c5b-4541f3ca8212" xsi:type="Node">
+			<name>System Software 004</name>
+		</element>
+		<element identifier="m-a9c391a5-e583-401f-a4ae-232747737671" xsi:type="TechnologyInterface">
+			<name>Technology Interface 013</name>
+		</element>
+		<element identifier="m-b8f10e16-0dc2-42ee-b948-f20b5617d5bc" xsi:type="CommunicationNetwork">
+			<name>Communication Network 005</name>
+		</element>
+		<element identifier="m-a30a88dc-5199-4930-aa81-899197631f47" xsi:type="Path">
+			<name>Path 006</name>
+		</element>
+		<element identifier="m-0fcb844e-5238-453b-b151-afeac0a5d4a8" xsi:type="TechnologyProcess">
+			<name>Technology Process 007</name>
+		</element>
+		<element identifier="m-26d13b71-f63d-4ebe-b175-19b826a7fcd8" xsi:type="TechnologyFunction">
+			<name>Technology Function 008</name>
+		</element>
+		<element identifier="m-6eca117b-cff1-444e-8bf8-1086531f44f8" xsi:type="TechnologyInteraction">
+			<name>Technology Interaction 009</name>
+		</element>
+		<element identifier="m-60d360e5-28ac-43a3-882d-72c44e800b80" xsi:type="TechnologyService">
+			<name>Technology Service 010</name>
+		</element>
+		<element identifier="m-da97c9c5-9233-48c8-a834-0902738f404c" xsi:type="TechnologyEvent">
+			<name>Technology Event 011</name>
+		</element>
+		<element identifier="m-1cb1d959-6d5b-41e9-b9fa-6da3aab7bbca" xsi:type="Artifact">
+			<name>Artifact 012</name>
+		</element>
+	</elements>
+</model>

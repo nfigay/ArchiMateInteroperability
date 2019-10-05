@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.0/archimate3_Diagram.xsd http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd" identifier="id-6ad53318-69ab-4fdf-b5c1-5561eb235d0d">
+  <name xml:lang="en">SimpleModelFromArchiWithoutDiagram</name>
+  <metadata>
+    <schema>Dublin Core</schema>
+    <schemaversion>1.1</schemaversion>
+    <dc:title>ArchiMagine</dc:title>
+  </metadata>
+  <elements>
+    <element identifier="id-1867a82c-2741-4272-9d50-e8a6a8ec2f90" xsi:type="BusinessActor">
+      <name xml:lang="en">Business Actor</name>
+    </element>
+    <element identifier="id-ae513114-fe05-410d-9e66-c7a1278b13ba" xsi:type="BusinessActor">
+      <name xml:lang="en">Business Actor</name>
+    </element>
+  </elements>
+  <relationships>
+    <relationship identifier="id-305da096-92b5-42d3-867e-760203d8ac15" source="id-1867a82c-2741-4272-9d50-e8a6a8ec2f90" target="id-ae513114-fe05-410d-9e66-c7a1278b13ba" xsi:type="Association" />
+  </relationships>
+</model>

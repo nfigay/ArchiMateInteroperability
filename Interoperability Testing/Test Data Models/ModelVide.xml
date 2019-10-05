@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.opengroup.org/xsd/archimate/3.0/" identifier="m-4b660cba-acef-4a87-873d-79932cf74e1d" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.0/archimate3_Diagram.xsd">
+    <name xml:lang="fr">Model</name>
+    <metadata>
+        <schema>Modelio ArchiMate</schema>
+        <schemaversion>3.6</schemaversion>
+    </metadata>
+    <organizations>
+        <item identifier="ref-b7f1b1b6-29bd-45a1-86a3-44642b2fd1bf">
+            <label xml:lang="fr">Application</label>
+        </item>
+        <item identifier="ref-cc714890-f267-410f-a474-922fa2514f63">
+            <label xml:lang="fr">Business</label>
+        </item>
+        <item identifier="ref-d3ecafd9-b7d1-4567-b79f-21ae4fe9c604">
+            <label xml:lang="fr">Implementation</label>
+        </item>
+        <item identifier="ref-69f60ec8-da75-465d-89ae-e4918a3e63ee">
+            <label xml:lang="fr">Motivation</label>
+        </item>
+        <item identifier="ref-6b7a4d94-9c7c-4668-b118-21e0d3ab865d">
+            <label xml:lang="fr">Physical</label>
+        </item>
+        <item identifier="ref-14caf8f8-e81e-4bd7-8fe2-e527386532fc">
+            <label xml:lang="fr">Strategy</label>
+        </item>
+        <item identifier="ref-bb15b855-c865-4476-acdf-fc65c66d6fd3">
+            <label xml:lang="fr">Technology</label>
+        </item>
+    </organizations>
+</model>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.0/archimate3_Diagram.xsd http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd" identifier="id-26d99bf6-fd18-434e-aa31-88685f7c3521">
+  <name xml:lang="en">(new model)</name>
+  <metadata>
+    <schema>Dublin Core</schema>
+    <schemaversion>1.1</schemaversion>
+    <dc:title>ArchiMagine</dc:title>
+    <dc:creator>Nicolas Figay</dc:creator>
+    <dc:subject>ArchiMate Usage</dc:subject>
+  </metadata>
+  <elements>
+    <element identifier="id-5b74f205-9cbf-4e68-b422-4aff61085dfb" xsi:type="CourseOfAction">
+      <name xml:lang="en">Course of Action</name>
+    </element>
+    <element identifier="id-a16b9790-d5c4-4884-81ed-635fd4c61cd3" xsi:type="BusinessActor">
+      <name xml:lang="en">Business Actor</name>
+    </element>
+  </elements>
+  <views>
+    <diagrams>
+      <view identifier="id-df7316d8-3d57-4668-8617-c14af4454ef7" xsi:type="Diagram">
+        <name xml:lang="en">Default View</name>
+        <node identifier="id-bfb6de71-8e1a-41e5-a528-211d937b0ee3" elementRef="id-5b74f205-9cbf-4e68-b422-4aff61085dfb" xsi:type="Element" x="62" y="101" w="120" h="55">
+          <style>
+            <fillColor r="245" g="222" b="170" a="100" />
+            <lineColor r="92" g="92" b="92" />
+            <font name="Times" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-c7155997-5ca3-4001-9686-f25fc592fae0" elementRef="id-a16b9790-d5c4-4884-81ed-635fd4c61cd3" xsi:type="Element" x="193" y="74" w="120" h="55">
+          <style>
+            <fillColor r="255" g="255" b="181" a="100" />
+            <lineColor r="92" g="92" b="92" />
+            <font name="Times" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+      </view>
+    </diagrams>
+  </views>
+</model>

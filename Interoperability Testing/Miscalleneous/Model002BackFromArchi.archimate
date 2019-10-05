@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Model" id="id-m-dce25409-8342-4632-858c-11cba75a4154" version="4.0.1">
+  <folder name="Strategy" id="f3632735-58dd-4b9a-bf4d-fa3783622768" type="strategy">
+    <element xsi:type="archimate:Resource" name="Resource" id="Resource"/>
+    <element xsi:type="archimate:Capability" name="Capability" id="Capability"/>
+    <element xsi:type="archimate:CourseOfAction" name="CourseOfAcion" id="CourseOfAction"/>
+    <element xsi:type="archimate:Resource" name="Resource2" id="Resource2"/>
+    <element xsi:type="archimate:Capability" name="Capability2" id="Capability2"/>
+    <element xsi:type="archimate:CourseOfAction" name="CourseOfAction2" id="CourseOfAction2"/>
+  </folder>
+  <folder name="Business" id="827e9f33-d83c-4043-989c-b52443d81f96" type="business">
+    <element xsi:type="archimate:BusinessActor" name="BusinessActor" id="BusinessActor"/>
+    <element xsi:type="archimate:BusinessRole" name="BusinessRole" id="BusinessRole"/>
+    <element xsi:type="archimate:BusinessCollaboration" name="BusinessCollaboration" id="BusinessCollaboration"/>
+    <element xsi:type="archimate:BusinessInterface" name="BusinessInterface" id="BusinessInterface"/>
+    <element xsi:type="archimate:BusinessProcess" name="BusinessProcess" id="BusinessProcess"/>
+    <element xsi:type="archimate:BusinessFunction" name="BusinessFunction" id="BusinessFunction"/>
+    <element xsi:type="archimate:BusinessInteraction" name="BusinessInteraction" id="BusinessInteraction"/>
+    <element xsi:type="archimate:BusinessEvent" name="BusinessEvent" id="BusinessEvent"/>
+    <element xsi:type="archimate:BusinessService" name="BusinessService" id="BusinessService"/>
+    <element xsi:type="archimate:BusinessObject" name="BusinessObject" id="BusinessObject"/>
+    <element xsi:type="archimate:Contract" name="Contract" id="Contract"/>
+    <element xsi:type="archimate:Representation" name="Representation" id="Representation"/>
+    <element xsi:type="archimate:Product" name="Product" id="Product"/>
+    <element xsi:type="archimate:BusinessActor" name="BusinessActor2" id="BusinessActor2"/>
+    <element xsi:type="archimate:BusinessRole" name="BusinessRole2" id="BusinessRole2"/>
+    <element xsi:type="archimate:BusinessCollaboration" name="BusinessCollaboration2" id="BusinessCollaboration2"/>
+    <element xsi:type="archimate:BusinessInterface" name="BusinessInterface2" id="BusinessInterface2"/>
+    <element xsi:type="archimate:BusinessProcess" name="BusinessProcess2" id="BusinessProcess2"/>
+    <element xsi:type="archimate:BusinessFunction" name="BusinessFunction2" id="BusinessFunction2"/>
+    <element xsi:type="archimate:BusinessInteraction" name="BusinessInteraction2" id="BusinessInteraction2"/>
+    <element xsi:type="archimate:BusinessEvent" name="BusinessEvent2" id="BusinessEvent2"/>
+    <element xsi:type="archimate:BusinessService" name="BusinessService2" id="BusinessService2"/>
+    <element xsi:type="archimate:BusinessObject" name="BusinessObject2" id="BusinessObject2"/>
+    <element xsi:type="archimate:Contract" name="Contract2" id="Contract2"/>
+    <element xsi:type="archimate:Representation" name="Representation2" id="Representation2"/>
+    <element xsi:type="archimate:Product" name="Product2" id="Product2"/>
+  </folder>
+  <folder name="Application" id="663a75f5-ccea-4f88-9259-f8a708c61c2d" type="application">
+    <element xsi:type="archimate:ApplicationComponent" name="ApplicationComponent" id="ApplicationComponent"/>
+    <element xsi:type="archimate:ApplicationCollaboration" name="ApplicationCollaboration" id="ApplicationCollaboration"/>
+    <element xsi:type="archimate:ApplicationInterface" name="ApplicationInterface" id="ApplicationInterface"/>
+    <element xsi:type="archimate:ApplicationFunction" name="ApplicationFunction" id="ApplicationFunction"/>
+    <element xsi:type="archimate:ApplicationInteraction" name="ApplicationInteraction" id="ApplicationInteraction"/>
+    <element xsi:type="archimate:ApplicationProcess" name="ApplicationProcess" id="ApplicationProcess"/>
+    <element xsi:type="archimate:ApplicationEvent" name="ApplicationEvent" id="ApplicationEvent"/>
+    <element xsi:type="archimate:ApplicationService" name="ApplicationService" id="ApplicationService"/>
+    <element xsi:type="archimate:DataObject" name="DataObject" id="DataObject"/>
+    <element xsi:type="archimate:ApplicationComponent" name="ApplicationComponent2" id="ApplicationComponent2"/>
+    <element xsi:type="archimate:ApplicationCollaboration" name="ApplicationCollaboration2" id="ApplicationCollaboration2"/>
+    <element xsi:type="archimate:ApplicationInterface" name="ApplicationInterface2" id="ApplicationInterface2"/>
+    <element xsi:type="archimate:ApplicationFunction" name="ApplicationFunction2" id="ApplicationFunction2"/>
+    <element xsi:type="archimate:ApplicationInteraction" name="ApplicationInteraction2" id="ApplicationInteraction2"/>
+    <element xsi:type="archimate:ApplicationProcess" name="ApplicationProcess2" id="ApplicationProcess2"/>
+    <element xsi:type="archimate:ApplicationEvent" name="ApplicationEvent2" id="ApplicationEvent2"/>
+    <element xsi:type="archimate:ApplicationService" name="ApplicationService2" id="ApplicationService2"/>
+    <element xsi:type="archimate:DataObject" name="DataObject2" id="DataObject2"/>
+  </folder>
+  <folder name="Technology &amp; Physical" id="961c8dfa-315c-4580-9ca6-218a606e3d45" type="technology">
+    <element xsi:type="archimate:Node" name="Node" id="Node"/>
+    <element xsi:type="archimate:Device" name="Device" id="Device"/>
+    <element xsi:type="archimate:SystemSoftware" name="SystemSoftware" id="SystemSoftware"/>
+    <element xsi:type="archimate:TechnologyCollaboration" name="TechnologyCollaboration" id="TechnologyCollaboration"/>
+    <element xsi:type="archimate:TechnologyInterface" name="TechnologyInterface" id="TechnologyInterface"/>
+    <element xsi:type="archimate:Path" name="Path" id="Path"/>
+    <element xsi:type="archimate:CommunicationNetwork" name="CommunicationNetwork" id="CommunicationNetwork"/>
+    <element xsi:type="archimate:TechnologyFunction" name="TechnologyFunction" id="TechnologyFunction"/>
+    <element xsi:type="archimate:TechnologyProcess" name="TechnologyProcess" id="TechnologyProcess"/>
+    <element xsi:type="archimate:TechnologyInteraction" name="TechnologyInteraction" id="TechnologyInteraction"/>
+    <element xsi:type="archimate:TechnologyEvent" name="TechnologyEvent" id="TechnologyEvent"/>
+    <element xsi:type="archimate:TechnologyService" name="TechnologyService" id="TechnologyService"/>
+    <element xsi:type="archimate:Artifact" name="Artifact" id="Artifact"/>
+    <element xsi:type="archimate:Equipment" name="Equipment" id="Equipment"/>
+    <element xsi:type="archimate:Facility" name="Facility" id="Facility"/>
+    <element xsi:type="archimate:DistributionNetwork" name="FaciDistributionNetworklity" id="DistributionNetwork"/>
+    <element xsi:type="archimate:Material" name="Material" id="Material"/>
+    <element xsi:type="archimate:Node" name="Node2" id="Node2"/>
+    <element xsi:type="archimate:Device" name="Device2" id="Device2"/>
+    <element xsi:type="archimate:SystemSoftware" name="SystemSoftware2" id="SystemSoftware2"/>
+    <element xsi:type="archimate:TechnologyCollaboration" name="TechnologyCollaboration2" id="TechnologyCollaboration2"/>
+    <element xsi:type="archimate:TechnologyInterface" name="TechnologyInterface2" id="TechnologyInterface2"/>
+    <element xsi:type="archimate:Path" name="Path2" id="Path2"/>
+    <element xsi:type="archimate:CommunicationNetwork" name="CommunicationNetwork2" id="CommunicationNetwork2"/>
+    <element xsi:type="archimate:TechnologyFunction" name="TechnologyFunction2" id="TechnologyFunction2"/>
+    <element xsi:type="archimate:TechnologyProcess" name="TechnologyProcess2" id="TechnologyProcess2"/>
+    <element xsi:type="archimate:TechnologyInteraction" name="TechnologyInteraction2" id="TechnologyInteraction2"/>
+    <element xsi:type="archimate:TechnologyEvent" name="TechnologyEvent2" id="TechnologyEvent2"/>
+    <element xsi:type="archimate:TechnologyService" name="TechnologyService2" id="TechnologyService2"/>
+    <element xsi:type="archimate:Artifact" name="Artifact2" id="Artifact2"/>
+    <element xsi:type="archimate:Equipment" name="Equipment2" id="Equipment2"/>
+    <element xsi:type="archimate:Facility" name="Facility2" id="Facility2"/>
+    <element xsi:type="archimate:DistributionNetwork" name="DistributionNetwork2" id="DistributionNetwork2"/>
+    <element xsi:type="archimate:Material" name="Material2" id="Material2"/>
+  </folder>
+  <folder name="Motivation" id="bf704584-5341-405b-b445-229ac451a593" type="motivation">
+    <element xsi:type="archimate:Stakeholder" name="Stakeholder" id="Stakeholder"/>
+    <element xsi:type="archimate:Driver" name="Driver" id="Driver"/>
+    <element xsi:type="archimate:Assessment" name="Assessment" id="Assessment"/>
+    <element xsi:type="archimate:Goal" name="Goal" id="Goal"/>
+    <element xsi:type="archimate:Outcome" name="Outcome" id="Outcome"/>
+    <element xsi:type="archimate:Principle" name="Principle" id="Principle"/>
+    <element xsi:type="archimate:Requirement" name="Requirement" id="Requirement"/>
+    <element xsi:type="archimate:Constraint" name="Constraint" id="Constraint"/>
+    <element xsi:type="archimate:Meaning" name="Meaning" id="Meaning"/>
+    <element xsi:type="archimate:Value" name="Value" id="Value"/>
+    <element xsi:type="archimate:Stakeholder" name="Stakeholder2" id="Stakeholder2"/>
+    <element xsi:type="archimate:Driver" name="Driver2" id="Driver2"/>
+    <element xsi:type="archimate:Assessment" name="Assessment2" id="Assessment2"/>
+    <element xsi:type="archimate:Goal" name="Goal2" id="Goal2"/>
+    <element xsi:type="archimate:Outcome" name="Outcome2" id="Outcome2"/>
+    <element xsi:type="archimate:Principle" name="Principle2" id="Principle2"/>
+    <element xsi:type="archimate:Requirement" name="Requirement2" id="Requirement2"/>
+    <element xsi:type="archimate:Constraint" name="Constraint2" id="Constraint2"/>
+    <element xsi:type="archimate:Meaning" name="Meaning2" id="Meaning2"/>
+    <element xsi:type="archimate:Value" name="Value2" id="Value2"/>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="0e38eb01-ad04-4e73-92ab-d9595fdf797b" type="implementation_migration">
+    <element xsi:type="archimate:WorkPackage" name="WorkPackage" id="WorkPackage"/>
+    <element xsi:type="archimate:Deliverable" name="Deliverable" id="Deliverable"/>
+    <element xsi:type="archimate:ImplementationEvent" name="ImplementationEvent" id="ImplementationEvent"/>
+    <element xsi:type="archimate:Plateau" name="Plateau" id="Plateau"/>
+    <element xsi:type="archimate:Gap" name="Gap" id="Gap"/>
+    <element xsi:type="archimate:WorkPackage" name="WorkPackage2" id="WorkPackage2"/>
+    <element xsi:type="archimate:Deliverable" name="Deliverable2" id="Deliverable2"/>
+    <element xsi:type="archimate:ImplementationEvent" name="ImplementationEvent2" id="ImplementationEvent2"/>
+    <element xsi:type="archimate:Plateau" name="Plateau2" id="Plateau2"/>
+    <element xsi:type="archimate:Gap" name="Gap2" id="Gap2"/>
+  </folder>
+  <folder name="Other" id="7ce62796-578a-47c2-87f1-b73ff8d14a98" type="other">
+    <element xsi:type="archimate:Location" name="Location" id="Location"/>
+    <element xsi:type="archimate:Grouping" name="Grouping" id="Grouping"/>
+    <element xsi:type="archimate:Location" name="Location2" id="Location2"/>
+    <element xsi:type="archimate:Grouping" name="Grouping2" id="Grouping2"/>
+  </folder>
+  <folder name="Relations" id="793cbfa8-73ae-4314-9287-fc4e53d373b7" type="relations">
+    <element xsi:type="archimate:AssociationRelationship" name="Association Resource Resource2" id="Association_Resource_Resource2" source="Resource" target="Resource2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Capability Capability2" id="Association_Capability_Capability2" source="Capability" target="Capability2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association CourseOfAction CourseOfAction2" id="Association_CourseOfAction_CourseOfAction2" source="CourseOfAction" target="CourseOfAction2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association BusinessActor BusinessActor2" id="Association_BusinessActor_BusinessActor2" source="BusinessActor" target="BusinessActor2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association BusinessRole BusinessRole2" id="Association_BusinessRole_BusinessRole2" source="BusinessRole" target="BusinessRole2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association BusinessCollaboration BusinessCollaboration2" id="Association_BusinessCollaboration_BusinessCollaboration2" source="BusinessCollaboration" target="BusinessCollaboration2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association BusinessInterface BusinessInterface2" id="Association_BusinessInterface_BusinessInterface2" source="BusinessInterface" target="BusinessInterface2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association BusinessProcess BusinessProcess2" id="Association_BusinessProcess_BusinessProcess2" source="BusinessProcess" target="BusinessProcess2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association BusinessFunction BusinessFunction2" id="Association_BusinessFunction_BusinessFunction2" source="BusinessFunction" target="BusinessFunction2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association BusinessInteraction BusinessInteraction2" id="Association_BusinessInteraction_BusinessInteraction2" source="BusinessInteraction" target="BusinessInteraction2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association BusinessEvent BusinessEvent2" id="Association_BusinessEvent_BusinessEvent2" source="BusinessEvent" target="BusinessEvent2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association BusinessService BusinessService2" id="Association_BusinessService_BusinessService2" source="BusinessService" target="BusinessService2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association BusinessObject BusinessObject2" id="Association_BusinessObject_BusinessObject2" source="BusinessObject" target="BusinessObject2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Contract Contract2" id="Association_Contract_Contract2" source="Contract" target="Contract2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Representation Representation2" id="Association_Representation_Representation2" source="Representation" target="Representation2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Product Product2" id="Association_Product_Product2" source="Product" target="Product2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association ApplicationComponent ApplicationComponent2" id="Association_ApplicationComponent_ApplicationComponent2" source="ApplicationComponent" target="ApplicationComponent2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association ApplicationCollaboration ApplicationCollaboration2" id="Association_ApplicationCollaboration_ApplicationCollaboration2" source="ApplicationCollaboration" target="ApplicationCollaboration2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association ApplicationInterface ApplicationInterface2" id="Association_ApplicationInterface_ApplicationInterface2" source="ApplicationInterface" target="ApplicationInterface2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association ApplicationFunction ApplicationFunction2" id="Association_ApplicationFunction_ApplicationFunction2" source="ApplicationFunction" target="ApplicationFunction2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association ApplicationInteraction ApplicationInteraction2" id="Association_ApplicationInteraction_ApplicationInteraction2" source="ApplicationInteraction" target="ApplicationInteraction2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association ApplicationProcess ApplicationProcess2" id="Association_ApplicationProcess_ApplicationProcess2" source="ApplicationProcess" target="ApplicationProcess2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association ApplicationEvent ApplicationEvent2" id="Association_ApplicationEvent_ApplicationEvent2" source="ApplicationEvent" target="ApplicationEvent2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association ApplicationService Product2" id="Association_ApplicationService_ApplicationService2" source="ApplicationService" target="ApplicationService2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association DataObject DataObject2" id="Association_DataObject_DataObject2" source="DataObject" target="DataObject2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Node Node2" id="Association_Node_Node2" source="Node" target="Node2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Device Device2" id="Association_Device_Device2" source="Device" target="Device2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association SystemSoftware SystemSoftware2" id="Association_SystemSoftware_SystemSoftware2" source="SystemSoftware" target="SystemSoftware2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association TechnologyCollaboration TechnologyCollaboration2" id="Association_TechnologyCollaboration_TechnologyCollaboration2" source="TechnologyCollaboration" target="TechnologyCollaboration2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association TechnologyInterface TechnologyInterface2" id="Association_TechnologyInterface_TechnologyInterface2" source="TechnologyInterface" target="TechnologyInterface2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Path Path2" id="Association_Path_Path2" source="Path" target="Path2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association CommunicationNetwork CommunicationNetwork2" id="Association_CommunicationNetwork_CommunicationNetwork2" source="CommunicationNetwork" target="CommunicationNetwork2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association TechnologyFunction TechnologyFunction2" id="Association_TechnologyFunction_TechnologyFunction2" source="TechnologyFunction" target="TechnologyFunction2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association TechnologyProcess TechnologyProcess2" id="Association_TechnologyProcess_TechnologyProcess2" source="TechnologyProcess" target="TechnologyProcess2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association TechnologyInteraction TechnologyInteraction2" id="Association_TechnologyInteraction_TechnologyInteraction2" source="TechnologyInteraction" target="TechnologyInteraction2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association TechnologyEvent TechnologyEvent2" id="Association_TechnologyEvent_TechnologyEvent2" source="TechnologyEvent" target="TechnologyEvent2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association TechnologyService TechnologyService2" id="Association_TechnologyService_TechnologyService2" source="TechnologyService" target="TechnologyService2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Artifact Artifact2" id="Association_Artifact_Artifact2" source="Artifact" target="Artifact2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Equipment Equipment2" id="Association_Equipment_Equipment2" source="Equipment" target="Equipment2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Facility Facility2" id="Association_Facility_Facility2" source="Facility" target="Facility2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association DistributionNetwork DistributionNetwork2" id="Association_DistributionNetwork_DistributionNetwork2" source="DistributionNetwork" target="DistributionNetwork2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Material Material2" id="Association_Material_Material2" source="Material" target="Material2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Stakeholder Stakeholder2" id="Association_Stakeholder_Stakeholder2" source="Stakeholder" target="Stakeholder2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Driver Driver2" id="Association_Driver_Driver2" source="Driver" target="Driver2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Assessment Assessment2" id="Association_Assessment_Assessment2" source="Assessment" target="Assessment2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Goal Goal2" id="Association_Goal_Goal2" source="Goal" target="Goal2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Outcome Outcome2" id="Association_Outcome_Outcome2" source="Outcome" target="Outcome2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Principle Principle2" id="Association_Principle_Principle2" source="Principle" target="Principle2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Requirement Requirement2" id="Association_Requirement_Requirement2" source="Requirement" target="Requirement2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Constraint Constraint2" id="Association_Constraint_Constraint2" source="Constraint" target="Constraint2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Meaning Meaning2" id="Association_Meaning_Meaning2" source="Meaning" target="Meaning2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Value Value2" id="Association_Value_Value2" source="Value" target="Value2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association WorkPackage WorkPackage2" id="Association_WorkPackage_WorkPackage2" source="WorkPackage" target="WorkPackage2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Deliverable Deliverable2" id="Association_Deliverable_Deliverable2" source="Deliverable" target="Deliverable2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association ImplementationEvent ImplementationEvent2" id="Association_ImplementationEvent_ImplementationEvent2" source="ImplementationEvent" target="ImplementationEvent2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Plateau Plateau2" id="Association_Plateau_Plateau2" source="Plateau" target="Plateau2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Location Location2" id="Association_Location_Location2" source="Location" target="Location2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Gap Gap2" id="Association_Gap_Gap2" source="Gap" target="Gap2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Association Grouping Grouping2" id="Association_Grouping_Grouping2" source="Grouping" target="Grouping2"/>
+  </folder>
+  <folder name="Views" id="00b73012-7a60-4acd-bbc7-2c6f30442eda" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="New ArchiMate View" id="4a8d6a42-9e08-4720-b110-c8e0f14e0598"/>
+  </folder>
+</archimate:model>
