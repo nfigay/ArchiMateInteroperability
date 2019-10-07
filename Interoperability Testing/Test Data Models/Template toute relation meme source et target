@@ -1,145 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.opengroup.org/xsd/archimate/3.0/" identifier="id-m-dce25409-8342-4632-858c-11cba75a4154" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.0/archimate3_Diagram.xsd">
-    <name xml:lang="fr">Model</name>
-    <metadata>
-        <schema>Modelio ArchiMate</schema>
-        <schemaversion>3.6</schemaversion>
-    </metadata>
-    <elements>
-         <element xsi:type="Resource" identifier="Resource-001"><name xml:lang="fr">Resource-001</name></element>
-        <element xsi:type="Capability" identifier="Capability-001"><name xml:lang="fr">Capability-001</name></element>
-        <element xsi:type="CourseOfAction" identifier="CourseOfAction-001"><name xml:lang="fr">CourseOfAction-001</name></element>
-        
-        <element xsi:type="BusinessActor" identifier="BusinessActor-001"><name xml:lang="fr">BusinessActor-001</name></element>
-        <element xsi:type="BusinessRole" identifier="BusinessRole-001"><name xml:lang="fr">BusinessRole-001</name></element>
-        <element xsi:type="BusinessCollaboration" identifier="BusinessCollaboration-001"><name xml:lang="fr">BusinessCollaboration-001</name></element>
-        <element xsi:type="BusinessInterface" identifier="BusinessInterface-001"><name xml:lang="fr">BusinessInterface-001</name></element>
-        <element xsi:type="BusinessProcess" identifier="BusinessProcess-001"><name xml:lang="fr">BusinessProcess-001</name></element>
-        <element xsi:type="BusinessFunction" identifier="BusinessFunction-001"><name xml:lang="fr">BusinessFunction-001</name></element>
-        <element xsi:type="BusinessInteraction" identifier="BusinessInteraction-001"><name xml:lang="fr">BusinessInteraction-001</name></element>
-        <element xsi:type="BusinessEvent" identifier="BusinessEvent-001"><name xml:lang="fr">BusinessEvent-001</name></element>
-        <element xsi:type="BusinessService" identifier="BusinessService-001"><name xml:lang="fr">BusinessService-001</name></element>
-        <element xsi:type="BusinessObject" identifier="BusinessObject-001"><name xml:lang="fr">BusinessObject-001</name></element>
-        <element xsi:type="Contract" identifier="Contract-001"><name xml:lang="fr">Contract-001</name></element>
-        <element xsi:type="Representation" identifier="Representation-001"><name xml:lang="fr">Representation-001</name></element>
-        <element xsi:type="Product" identifier="Product-001"><name xml:lang="fr">Product-001</name></element>
-
-        <element xsi:type="ApplicationComponent" identifier="ApplicationComponent-001"><name xml:lang="fr">ApplicationComponent-001</name></element>
-        <element xsi:type="ApplicationCollaboration" identifier="ApplicationCollaboration-001"><name xml:lang="fr">ApplicationCollaboration-001</name></element>
-        <element xsi:type="ApplicationInterface" identifier="ApplicationInterface-001"><name xml:lang="fr">ApplicationInterface-001</name></element>
-        <element xsi:type="ApplicationFunction" identifier="ApplicationFunction-001"><name xml:lang="fr">ApplicationFunction-001</name></element>
-        <element xsi:type="ApplicationInteraction" identifier="ApplicationInteraction-001"><name xml:lang="fr">ApplicationInteraction-001</name></element>
-        <element xsi:type="ApplicationProcess" identifier="ApplicationProcess-001"><name xml:lang="fr">ApplicationProcess-001</name></element>
-        <element xsi:type="ApplicationEvent" identifier="ApplicationEvent-001"><name xml:lang="fr">ApplicationEvent-001</name></element>
-        <element xsi:type="ApplicationService" identifier="ApplicationService-001"><name xml:lang="fr">ApplicationService-001</name></element>     
-        <element xsi:type="DataObject" identifier="DataObject-001"><name xml:lang="fr">DataObject-001</name></element>
-
-        <element xsi:type="Node" identifier="Node-001"><name xml:lang="fr">Node-001</name></element>
-        <element xsi:type="Device" identifier="Device-001"><name xml:lang="fr">Device-001</name></element>
-        <element xsi:type="SystemSoftware" identifier="SystemSoftware-001"><name xml:lang="fr">SystemSoftware-001</name></element>
-        <element xsi:type="TechnologyCollaboration" identifier="TechnologyCollaboration-001"><name xml:lang="fr">TechnologyCollaboration-001</name></element>
-        <element xsi:type="TechnologyInterface" identifier="TechnologyInterface-001"><name xml:lang="fr">TechnologyInterface-001</name></element>
-        <element xsi:type="Path" identifier="Path-001"><name xml:lang="fr">Path-001</name></element>
-        <element xsi:type="CommunicationNetwork" identifier="CommunicationNetwork-001"><name xml:lang="fr">CommunicationNetwork-001</name></element>
-        <element xsi:type="TechnologyFunction" identifier="TechnologyFunction-001"><name xml:lang="fr">TechnologyFunction-001</name></element>
-        <element xsi:type="TechnologyProcess" identifier="TechnologyProcess-001"><name xml:lang="fr">TechnologyProcess-001</name></element>
-        <element xsi:type="TechnologyInteraction" identifier="TechnologyInteraction-001"><name xml:lang="fr">TechnologyInteraction-001</name></element>
-        <element xsi:type="TechnologyEvent" identifier="TechnologyEvent-001"><name xml:lang="fr">TechnologyEvent-001</name></element>
-        <element xsi:type="TechnologyService" identifier="TechnologyService-001"><name xml:lang="fr">TechnologyService-001</name></element>
-        <element xsi:type="Artifact" identifier="Artifact-001"><name xml:lang="fr">Artifact-001</name></element>
-        <element xsi:type="Equipment" identifier="Equipment-001"><name xml:lang="fr">Equipment-001</name></element>
-        <element xsi:type="Facility" identifier="Facility-001"><name xml:lang="fr">Facility-001</name></element>
-        <element xsi:type="DistributionNetwork" identifier="DistributionNetwork-001"><name xml:lang="fr">DistributionNetwork-001</name></element>
-        <element xsi:type="Material" identifier="Material-001"><name xml:lang="fr">Material-001</name></element>
-
-        <element xsi:type="Stakeholder" identifier="Stakeholder-001"><name xml:lang="fr">Stakeholder-001</name></element>
-        <element xsi:type="Driver" identifier="Driver-001"><name xml:lang="fr">Driver-001</name></element> 
-        <element xsi:type="Assessment" identifier="Assessment-001"><name xml:lang="fr">Assessment-001</name></element>
-        <element xsi:type="Goal" identifier="Goal-001"><name xml:lang="fr">Goal-001</name></element>
-        <element xsi:type="Outcome" identifier="Outcome-001"><name xml:lang="fr">Outcome-001</name></element>                 
-        <element xsi:type="Principle" identifier="Principle-001"><name xml:lang="fr">Principle-001</name></element> 
-        <element xsi:type="Requirement" identifier="Requirement-001"><name xml:lang="fr">Requirement-001</name></element>
-        <element xsi:type="Constraint" identifier="Constraint-001"><name xml:lang="fr">Constraint-001</name></element>         
-        <element xsi:type="Meaning" identifier="Meaning-001"><name xml:lang="fr">Meaning-001</name></element>         
-        <element xsi:type="Value" identifier="Value-001"><name xml:lang="fr">Value-001</name></element> 
-
-        <element xsi:type="WorkPackage" identifier="WorkPackage-001"><name xml:lang="fr">WorkPackage-001</name></element>     
-        <element xsi:type="Deliverable" identifier="Deliverable-001"><name xml:lang="fr">Deliverable-001</name></element> 
-        <element xsi:type="ImplementationEvent" identifier="ImplementationEvent-001"><name xml:lang="fr">ImplementationEvent-001</name></element>     
-        <element xsi:type="Plateau" identifier="Plateau-001"><name xml:lang="fr">Plateau-001</name></element> 
-        <element xsi:type="Gap" identifier="Gap-001"><name xml:lang="fr">Gap-001</name></element> 
-
-        <element xsi:type="Location" identifier="Location-001"><name xml:lang="fr">Location-001</name></element>
-        <element xsi:type="Grouping" identifier="Grouping-001"><name xml:lang="fr">Grouping-001</name></element>
- 
-        <element xsi:type="Resource" identifier="Resource-002"><name xml:lang="fr">Resource-002</name></element>
-        <element xsi:type="Capability" identifier="Capability-002"><name xml:lang="fr">Capability-002</name></element>
-        <element xsi:type="CourseOfAction" identifier="CourseOfAction-002"><name xml:lang="fr">CourseOfAction-002</name></element>
-        
-        <element xsi:type="BusinessActor" identifier="BusinessActor-002"><name xml:lang="fr">BusinessActor-002</name></element>
-        <element xsi:type="BusinessRole" identifier="BusinessRole-002"><name xml:lang="fr">BusinessRole-002</name></element>
-        <element xsi:type="BusinessCollaboration" identifier="BusinessCollaboration-002"><name xml:lang="fr">BusinessCollaboration-002</name></element>
-        <element xsi:type="BusinessInterface" identifier="BusinessInterface-002"><name xml:lang="fr">BusinessInterface-002</name></element>
-        <element xsi:type="BusinessProcess" identifier="BusinessProcess-002"><name xml:lang="fr">BusinessProcess-002</name></element>
-        <element xsi:type="BusinessFunction" identifier="BusinessFunction-002"><name xml:lang="fr">BusinessFunction-002</name></element>
-        <element xsi:type="BusinessInteraction" identifier="BusinessInteraction-002"><name xml:lang="fr">BusinessInteraction-002</name></element>
-        <element xsi:type="BusinessEvent" identifier="BusinessEvent-002"><name xml:lang="fr">BusinessEvent-002</name></element>
-        <element xsi:type="BusinessService" identifier="BusinessService-002"><name xml:lang="fr">BusinessService-002</name></element>
-        <element xsi:type="BusinessObject" identifier="BusinessObject-002"><name xml:lang="fr">BusinessObject-002</name></element>
-        <element xsi:type="Contract" identifier="Contract-002"><name xml:lang="fr">Contract-002</name></element>
-        <element xsi:type="Representation" identifier="Representation-002"><name xml:lang="fr">Representation-002</name></element>
-        <element xsi:type="Product" identifier="Product-002"><name xml:lang="fr">Product-002</name></element>
-
-        <element xsi:type="ApplicationComponent" identifier="ApplicationComponent-002"><name xml:lang="fr">ApplicationComponent-002</name></element>
-        <element xsi:type="ApplicationCollaboration" identifier="ApplicationCollaboration-002"><name xml:lang="fr">ApplicationCollaboration-002</name></element>
-        <element xsi:type="ApplicationInterface" identifier="ApplicationInterface-002"><name xml:lang="fr">ApplicationInterface-002</name></element>
-        <element xsi:type="ApplicationFunction" identifier="ApplicationFunction-002"><name xml:lang="fr">ApplicationFunction-002</name></element>
-        <element xsi:type="ApplicationInteraction" identifier="ApplicationInteraction-002"><name xml:lang="fr">ApplicationInteraction-002</name></element>
-        <element xsi:type="ApplicationProcess" identifier="ApplicationProcess-002"><name xml:lang="fr">ApplicationProcess-002</name></element>
-        <element xsi:type="ApplicationEvent" identifier="ApplicationEvent-002"><name xml:lang="fr">ApplicationEvent-002</name></element>
-        <element xsi:type="ApplicationService" identifier="ApplicationService-002"><name xml:lang="fr">ApplicationService-002</name></element>     
-        <element xsi:type="DataObject" identifier="DataObject-002"><name xml:lang="fr">DataObject-002</name></element>
-
-        <element xsi:type="Node" identifier="Node-002"><name xml:lang="fr">Node-002</name></element>
-        <element xsi:type="Device" identifier="Device-002"><name xml:lang="fr">Device-002</name></element>
-        <element xsi:type="SystemSoftware" identifier="SystemSoftware-002"><name xml:lang="fr">SystemSoftware-002</name></element>
-        <element xsi:type="TechnologyCollaboration" identifier="TechnologyCollaboration-002"><name xml:lang="fr">TechnologyCollaboration-002</name></element>
-        <element xsi:type="TechnologyInterface" identifier="TechnologyInterface-002"><name xml:lang="fr">TechnologyInterface-002</name></element>
-        <element xsi:type="Path" identifier="Path-002"><name xml:lang="fr">Path-002</name></element>
-        <element xsi:type="CommunicationNetwork" identifier="CommunicationNetwork-002"><name xml:lang="fr">CommunicationNetwork-002</name></element>
-        <element xsi:type="TechnologyFunction" identifier="TechnologyFunction-002"><name xml:lang="fr">TechnologyFunction-002</name></element>
-        <element xsi:type="TechnologyProcess" identifier="TechnologyProcess-002"><name xml:lang="fr">TechnologyProcess-002</name></element>
-        <element xsi:type="TechnologyInteraction" identifier="TechnologyInteraction-002"><name xml:lang="fr">TechnologyInteraction-002</name></element>
-        <element xsi:type="TechnologyEvent" identifier="TechnologyEvent-002"><name xml:lang="fr">TechnologyEvent-002</name></element>
-        <element xsi:type="TechnologyService" identifier="TechnologyService-002"><name xml:lang="fr">TechnologyService-002</name></element>
-        <element xsi:type="Artifact" identifier="Artifact-002"><name xml:lang="fr">Artifact-002</name></element>
-        <element xsi:type="Equipment" identifier="Equipment-002"><name xml:lang="fr">Equipment-002</name></element>
-        <element xsi:type="Facility" identifier="Facility-002"><name xml:lang="fr">Facility-002</name></element>
-        <element xsi:type="DistributionNetwork" identifier="DistributionNetwork-002"><name xml:lang="fr">DistributionNetwork-002</name></element>
-        <element xsi:type="Material" identifier="Material-002"><name xml:lang="fr">Material-002</name></element>
-
-        <element xsi:type="Stakeholder" identifier="Stakeholder-002"><name xml:lang="fr">Stakeholder-002</name></element>
-        <element xsi:type="Driver" identifier="Driver-002"><name xml:lang="fr">Driver-002</name></element> 
-        <element xsi:type="Assessment" identifier="Assessment-002"><name xml:lang="fr">Assessment-002</name></element>
-        <element xsi:type="Goal" identifier="Goal-002"><name xml:lang="fr">Goal-002</name></element>
-        <element xsi:type="Outcome" identifier="Outcome-002"><name xml:lang="fr">Outcome-002</name></element>                 
-        <element xsi:type="Principle" identifier="Principle-002"><name xml:lang="fr">Principle-002</name></element> 
-        <element xsi:type="Requirement" identifier="Requirement-002"><name xml:lang="fr">Requirement-002</name></element>
-        <element xsi:type="Constraint" identifier="Constraint-002"><name xml:lang="fr">Constraint-002</name></element>         
-        <element xsi:type="Meaning" identifier="Meaning-002"><name xml:lang="fr">Meaning-002</name></element>         
-        <element xsi:type="Value" identifier="Value-002"><name xml:lang="fr">Value-002</name></element> 
-
-        <element xsi:type="WorkPackage" identifier="WorkPackage-002"><name xml:lang="fr">WorkPackage-002</name></element>     
-        <element xsi:type="Deliverable" identifier="Deliverable-002"><name xml:lang="fr">Deliverable-002</name></element> 
-        <element xsi:type="ImplementationEvent" identifier="ImplementationEvent-002"><name xml:lang="fr">ImplementationEvent-002</name></element>     
-        <element xsi:type="Plateau" identifier="Plateau-002"><name xml:lang="fr">Plateau-002</name></element> 
-        <element xsi:type="Gap" identifier="Gap-002"><name xml:lang="fr">Gap-002</name></element> 
-
-        <element xsi:type="Location" identifier="Location-002"><name xml:lang="fr">Location-002</name></element>
-        <element xsi:type="Grouping" identifier="Grouping-002"><name xml:lang="fr">Grouping-002</name></element>
-    </elements>
-    
-    <relationships>
     
 <!--
 Une Relation d'Association entre deux élements ayant le même type ArchiMate, pour tous les types ArchiMate
@@ -156,7 +14,7 @@ Une Relation d'Association entre deux élements ayant le même type ArchiMate, p
         <relationship xsi:type="Association" source="BusinessFunction-001" target="BusinessFunction-001" identifier="Association_BusinessFunction-001_BusinessFunction-001"><name xml:lang="fr">Association BusinessFunction-001 BusinessFunction-001</name></relationship>
         <relationship xsi:type="Association" source="BusinessInteraction-001" target="BusinessInteraction-001" identifier="Association_BusinessInteraction-001_BusinessInteraction-001"><name xml:lang="fr">Association BusinessInteraction-001 BusinessInteraction-001</name></relationship>
         <relationship xsi:type="Association" source="BusinessEvent-001" target="BusinessEvent-001" identifier="Association_BusinessEvent-001_BusinessEvent-001"><name xml:lang="fr">Association BusinessEvent-001 BusinessEvent-001</name></relationship>
-        <relationship xsi:type="Association" source="BusinessService-001" target="BusinessService-001" identifier="Association_BusinessService-001_BusinessService-001"><name xml:lang="fr">Association BusinessService-001 BusinessService-001</name></relationship>
+        <relationship xsi:type="Association" source="BusinessServicet-001" target="BusinessServicet-001" identifier="Association_BusinessServicet-001_BusinessServicet-001"><name xml:lang="fr">Association BusinessServicet-001 BusinessServicet-001</name></relationship>
         <relationship xsi:type="Association" source="BusinessObject-001" target="BusinessObject-001" identifier="Association_BusinessObject-001_BusinessObject-001"><name xml:lang="fr">Association BusinessObject-001 BusinessObject-001</name></relationship>
         <relationship xsi:type="Association" source="Contract-001" target="Contract-001" identifier="Association_Contract-001_Contract-001"><name xml:lang="fr">Association Contract-001 Contract-001</name></relationship>
         <relationship xsi:type="Association" source="Representation-001" target="Representation-001" identifier="Association_Representation-001_Representation-001"><name xml:lang="fr">Association Representation-001 Representation-001</name></relationship>
@@ -195,7 +53,7 @@ Une Relation d'Association entre deux élements ayant le même type ArchiMate, p
        <relationship xsi:type="Association" source="Assessment-001" target="Assessment-001" identifier="Association_Assessment-001_Assessment-001"><name xml:lang="fr">Association Assessment-001 Assessment-001</name></relationship>
        <relationship xsi:type="Association" source="Goal-001" target="Goal-001" identifier="Association_Goal-001_Goal-001"><name xml:lang="fr">Association Goal-001 Goal-001</name></relationship>
        <relationship xsi:type="Association" source="Outcome-001" target="Outcome-001" identifier="Association_Outcome-001_Outcome-001"><name xml:lang="fr">Association Outcome-001 Outcome-001</name></relationship>
-       <relationship xsi:type="Association" source="Principle-001" target="Principle-001" identifier="Association_Principle-001_Principle-001"><name xml:lang="fr">Association Principle-001 Principle-001</name></relationship>
+       <relationship xsi:type="Association" source="Principle-001-001" target="Principle-001-001" identifier="Association_Principle-001-001_Principle-001-001"><name xml:lang="fr">Association Principle-001-001 Principle-001-001</name></relationship>
        <relationship xsi:type="Association" source="Requirement-001" target="Requirement-001" identifier="Association_Requirement-001_Requirement-001"><name xml:lang="fr">Association Requirement-001 Requirement-001</name></relationship>
        <relationship xsi:type="Association" source="Constraint-001" target="Constraint-001" identifier="Association_Constraint-001_Constraint-001"><name xml:lang="fr">Association Constraint-001 Constraint-001</name></relationship>
        <relationship xsi:type="Association" source="Meaning-001" target="Meaning-001" identifier="Association_Meaning-001_Meaning-001"><name xml:lang="fr">Association Meaning-001 Meaning-001</name></relationship>
@@ -224,7 +82,7 @@ Une Relation Access entre deux élements ayant le même type ArchiMate, pour tou
         <relationship xsi:type="Access" source="BusinessFunction-001" target="BusinessFunction-001" identifier="Access_BusinessFunction-001_BusinessFunction-001"><name xml:lang="fr">Access BusinessFunction-001 BusinessFunction-001</name></relationship>
         <relationship xsi:type="Access" source="BusinessInteraction-001" target="BusinessInteraction-001" identifier="Access_BusinessInteraction-001_BusinessInteraction-001"><name xml:lang="fr">Access BusinessInteraction-001 BusinessInteraction-001</name></relationship>
         <relationship xsi:type="Access" source="BusinessEvent-001" target="BusinessEvent-001" identifier="Access_BusinessEvent-001_BusinessEvent-001"><name xml:lang="fr">Access BusinessEvent-001 BusinessEvent-001</name></relationship>
-        <relationship xsi:type="Access" source="BusinessService-001" target="BusinessService-001" identifier="Access_BusinessService-001_BusinessService-001"><name xml:lang="fr">Access BusinessService-001 BusinessService-001</name></relationship>
+        <relationship xsi:type="Access" source="BusinessServicet-001" target="BusinessServicet-001" identifier="Access_BusinessServicet-001_BusinessServicet-001"><name xml:lang="fr">Access BusinessServicet-001 BusinessServicet-001</name></relationship>
         <relationship xsi:type="Access" source="BusinessObject-001" target="BusinessObject-001" identifier="Access_BusinessObject-001_BusinessObject-001"><name xml:lang="fr">Access BusinessObject-001 BusinessObject-001</name></relationship>
         <relationship xsi:type="Access" source="Contract-001" target="Contract-001" identifier="Access_Contract-001_Contract-001"><name xml:lang="fr">Access Contract-001 Contract-001</name></relationship>
         <relationship xsi:type="Access" source="Representation-001" target="Representation-001" identifier="Access_Representation-001_Representation-001"><name xml:lang="fr">Access Representation-001 Representation-001</name></relationship>
@@ -263,7 +121,7 @@ Une Relation Access entre deux élements ayant le même type ArchiMate, pour tou
        <relationship xsi:type="Access" source="Assessment-001" target="Assessment-001" identifier="Access_Assessment-001_Assessment-001"><name xml:lang="fr">Access Assessment-001 Assessment-001</name></relationship>
        <relationship xsi:type="Access" source="Goal-001" target="Goal-001" identifier="Access_Goal-001_Goal-001"><name xml:lang="fr">Access Goal-001 Goal-001</name></relationship>
        <relationship xsi:type="Access" source="Outcome-001" target="Outcome-001" identifier="Access_Outcome-001_Outcome-001"><name xml:lang="fr">Access Outcome-001 Outcome-001</name></relationship>
-       <relationship xsi:type="Access" source="Principle-001" target="Principle-001" identifier="Access_Principle-001_Principle-001"><name xml:lang="fr">Access Principle-001 Principle-001</name></relationship>
+       <relationship xsi:type="Access" source="Principle-001-001" target="Principle-001-001" identifier="Access_Principle-001-001_Principle-001-001"><name xml:lang="fr">Access Principle-001-001 Principle-001-001</name></relationship>
        <relationship xsi:type="Access" source="Requirement-001" target="Requirement-001" identifier="Access_Requirement-001_Requirement-001"><name xml:lang="fr">Access Requirement-001 Requirement-001</name></relationship>
        <relationship xsi:type="Access" source="Constraint-001" target="Constraint-001" identifier="Access_Constraint-001_Constraint-001"><name xml:lang="fr">Access Constraint-001 Constraint-001</name></relationship>
        <relationship xsi:type="Access" source="Meaning-001" target="Meaning-001" identifier="Access_Meaning-001_Meaning-001"><name xml:lang="fr">Access Meaning-001 Meaning-001</name></relationship>
@@ -292,7 +150,7 @@ Une Relation Composition entre deux élements ayant le même type ArchiMate, pou
         <relationship xsi:type="Composition" source="BusinessFunction-001" target="BusinessFunction-001" identifier="Composition_BusinessFunction-001_BusinessFunction-001"><name xml:lang="fr">Composition BusinessFunction-001 BusinessFunction-001</name></relationship>
         <relationship xsi:type="Composition" source="BusinessInteraction-001" target="BusinessInteraction-001" identifier="Composition_BusinessInteraction-001_BusinessInteraction-001"><name xml:lang="fr">Composition BusinessInteraction-001 BusinessInteraction-001</name></relationship>
         <relationship xsi:type="Composition" source="BusinessEvent-001" target="BusinessEvent-001" identifier="Composition_BusinessEvent-001_BusinessEvent-001"><name xml:lang="fr">Composition BusinessEvent-001 BusinessEvent-001</name></relationship>
-        <relationship xsi:type="Composition" source="BusinessService-001" target="BusinessService-001" identifier="Composition_BusinessService-001_BusinessService-001"><name xml:lang="fr">Composition BusinessService-001 BusinessService-001</name></relationship>
+        <relationship xsi:type="Composition" source="BusinessServicet-001" target="BusinessServicet-001" identifier="Composition_BusinessServicet-001_BusinessServicet-001"><name xml:lang="fr">Composition BusinessServicet-001 BusinessServicet-001</name></relationship>
         <relationship xsi:type="Composition" source="BusinessObject-001" target="BusinessObject-001" identifier="Composition_BusinessObject-001_BusinessObject-001"><name xml:lang="fr">Composition BusinessObject-001 BusinessObject-001</name></relationship>
         <relationship xsi:type="Composition" source="Contract-001" target="Contract-001" identifier="Composition_Contract-001_Contract-001"><name xml:lang="fr">Composition Contract-001 Contract-001</name></relationship>
         <relationship xsi:type="Composition" source="Representation-001" target="Representation-001" identifier="Composition_Representation-001_Representation-001"><name xml:lang="fr">Composition Representation-001 Representation-001</name></relationship>
@@ -331,7 +189,7 @@ Une Relation Composition entre deux élements ayant le même type ArchiMate, pou
        <relationship xsi:type="Composition" source="Assessment-001" target="Assessment-001" identifier="Composition_Assessment-001_Assessment-001"><name xml:lang="fr">Composition Assessment-001 Assessment-001</name></relationship>
        <relationship xsi:type="Composition" source="Goal-001" target="Goal-001" identifier="Composition_Goal-001_Goal-001"><name xml:lang="fr">Composition Goal-001 Goal-001</name></relationship>
        <relationship xsi:type="Composition" source="Outcome-001" target="Outcome-001" identifier="Composition_Outcome-001_Outcome-001"><name xml:lang="fr">Composition Outcome-001 Outcome-001</name></relationship>
-       <relationship xsi:type="Composition" source="Principle-001" target="Principle-001" identifier="Composition_Principle-001_Principle-001"><name xml:lang="fr">Composition Principle-001 Principle-001</name></relationship>
+       <relationship xsi:type="Composition" source="Principle-001-001" target="Principle-001-001" identifier="Composition_Principle-001-001_Principle-001-001"><name xml:lang="fr">Composition Principle-001-001 Principle-001-001</name></relationship>
        <relationship xsi:type="Composition" source="Requirement-001" target="Requirement-001" identifier="Composition_Requirement-001_Requirement-001"><name xml:lang="fr">Composition Requirement-001 Requirement-001</name></relationship>
        <relationship xsi:type="Composition" source="Constraint-001" target="Constraint-001" identifier="Composition_Constraint-001_Constraint-001"><name xml:lang="fr">Composition Constraint-001 Constraint-001</name></relationship>
        <relationship xsi:type="Composition" source="Meaning-001" target="Meaning-001" identifier="Composition_Meaning-001_Meaning-001"><name xml:lang="fr">Composition Meaning-001 Meaning-001</name></relationship>
@@ -361,7 +219,7 @@ Une Relation Aggregation entre deux élements ayant le même type ArchiMate, pou
         <relationship xsi:type="Aggregation" source="BusinessFunction-001" target="BusinessFunction-001" identifier="Aggregation_BusinessFunction-001_BusinessFunction-001"><name xml:lang="fr">Aggregation BusinessFunction-001 BusinessFunction-001</name></relationship>
         <relationship xsi:type="Aggregation" source="BusinessInteraction-001" target="BusinessInteraction-001" identifier="Aggregation_BusinessInteraction-001_BusinessInteraction-001"><name xml:lang="fr">Aggregation BusinessInteraction-001 BusinessInteraction-001</name></relationship>
         <relationship xsi:type="Aggregation" source="BusinessEvent-001" target="BusinessEvent-001" identifier="Aggregation_BusinessEvent-001_BusinessEvent-001"><name xml:lang="fr">Aggregation BusinessEvent-001 BusinessEvent-001</name></relationship>
-        <relationship xsi:type="Aggregation" source="BusinessService-001" target="BusinessService-001" identifier="Aggregation_BusinessService-001_BusinessService-001"><name xml:lang="fr">Aggregation BusinessService-001 BusinessService-001</name></relationship>
+        <relationship xsi:type="Aggregation" source="BusinessServicet-001" target="BusinessServicet-001" identifier="Aggregation_BusinessServicet-001_BusinessServicet-001"><name xml:lang="fr">Aggregation BusinessServicet-001 BusinessServicet-001</name></relationship>
         <relationship xsi:type="Aggregation" source="BusinessObject-001" target="BusinessObject-001" identifier="Aggregation_BusinessObject-001_BusinessObject-001"><name xml:lang="fr">Aggregation BusinessObject-001 BusinessObject-001</name></relationship>
         <relationship xsi:type="Aggregation" source="Contract-001" target="Contract-001" identifier="Aggregation_Contract-001_Contract-001"><name xml:lang="fr">Aggregation Contract-001 Contract-001</name></relationship>
         <relationship xsi:type="Aggregation" source="Representation-001" target="Representation-001" identifier="Aggregation_Representation-001_Representation-001"><name xml:lang="fr">Aggregation Representation-001 Representation-001</name></relationship>
@@ -400,7 +258,7 @@ Une Relation Aggregation entre deux élements ayant le même type ArchiMate, pou
        <relationship xsi:type="Aggregation" source="Assessment-001" target="Assessment-001" identifier="Aggregation_Assessment-001_Assessment-001"><name xml:lang="fr">Aggregation Assessment-001 Assessment-001</name></relationship>
        <relationship xsi:type="Aggregation" source="Goal-001" target="Goal-001" identifier="Aggregation_Goal-001_Goal-001"><name xml:lang="fr">Aggregation Goal-001 Goal-001</name></relationship>
        <relationship xsi:type="Aggregation" source="Outcome-001" target="Outcome-001" identifier="Aggregation_Outcome-001_Outcome-001"><name xml:lang="fr">Aggregation Outcome-001 Outcome-001</name></relationship>
-       <relationship xsi:type="Aggregation" source="Principle-001" target="Principle-001" identifier="Aggregation_Principle-001_Principle-001"><name xml:lang="fr">Aggregation Principle-001 Principle-001</name></relationship>
+       <relationship xsi:type="Aggregation" source="Principle-001-001" target="Principle-001-001" identifier="Aggregation_Principle-001-001_Principle-001-001"><name xml:lang="fr">Aggregation Principle-001-001 Principle-001-001</name></relationship>
        <relationship xsi:type="Aggregation" source="Requirement-001" target="Requirement-001" identifier="Aggregation_Requirement-001_Requirement-001"><name xml:lang="fr">Aggregation Requirement-001 Requirement-001</name></relationship>
        <relationship xsi:type="Aggregation" source="Constraint-001" target="Constraint-001" identifier="Aggregation_Constraint-001_Constraint-001"><name xml:lang="fr">Aggregation Constraint-001 Constraint-001</name></relationship>
        <relationship xsi:type="Aggregation" source="Meaning-001" target="Meaning-001" identifier="Aggregation_Meaning-001_Meaning-001"><name xml:lang="fr">Aggregation Meaning-001 Meaning-001</name></relationship>
@@ -429,7 +287,7 @@ Une Relation Flow entre deux élements ayant le même type ArchiMate, pour tous 
         <relationship xsi:type="Flow" source="BusinessFunction-001" target="BusinessFunction-001" identifier="Flow_BusinessFunction-001_BusinessFunction-001"><name xml:lang="fr">Flow BusinessFunction-001 BusinessFunction-001</name></relationship>
         <relationship xsi:type="Flow" source="BusinessInteraction-001" target="BusinessInteraction-001" identifier="Flow_BusinessInteraction-001_BusinessInteraction-001"><name xml:lang="fr">Flow BusinessInteraction-001 BusinessInteraction-001</name></relationship>
         <relationship xsi:type="Flow" source="BusinessEvent-001" target="BusinessEvent-001" identifier="Flow_BusinessEvent-001_BusinessEvent-001"><name xml:lang="fr">Flow BusinessEvent-001 BusinessEvent-001</name></relationship>
-        <relationship xsi:type="Flow" source="BusinessService-001" target="BusinessService-001" identifier="Flow_BusinessService-001_BusinessService-001"><name xml:lang="fr">Flow BusinessService-001 BusinessService-001</name></relationship>
+        <relationship xsi:type="Flow" source="BusinessServicet-001" target="BusinessServicet-001" identifier="Flow_BusinessServicet-001_BusinessServicet-001"><name xml:lang="fr">Flow BusinessServicet-001 BusinessServicet-001</name></relationship>
         <relationship xsi:type="Flow" source="BusinessObject-001" target="BusinessObject-001" identifier="Flow_BusinessObject-001_BusinessObject-001"><name xml:lang="fr">Flow BusinessObject-001 BusinessObject-001</name></relationship>
         <relationship xsi:type="Flow" source="Contract-001" target="Contract-001" identifier="Flow_Contract-001_Contract-001"><name xml:lang="fr">Flow Contract-001 Contract-001</name></relationship>
         <relationship xsi:type="Flow" source="Representation-001" target="Representation-001" identifier="Flow_Representation-001_Representation-001"><name xml:lang="fr">Flow Representation-001 Representation-001</name></relationship>
@@ -468,7 +326,7 @@ Une Relation Flow entre deux élements ayant le même type ArchiMate, pour tous 
        <relationship xsi:type="Flow" source="Assessment-001" target="Assessment-001" identifier="Flow_Assessment-001_Assessment-001"><name xml:lang="fr">Flow Assessment-001 Assessment-001</name></relationship>
        <relationship xsi:type="Flow" source="Goal-001" target="Goal-001" identifier="Flow_Goal-001_Goal-001"><name xml:lang="fr">Flow Goal-001 Goal-001</name></relationship>
        <relationship xsi:type="Flow" source="Outcome-001" target="Outcome-001" identifier="Flow_Outcome-001_Outcome-001"><name xml:lang="fr">Flow Outcome-001 Outcome-001</name></relationship>
-       <relationship xsi:type="Flow" source="Principle-001" target="Principle-001" identifier="Flow_Principle-001_Principle-001"><name xml:lang="fr">Flow Principle-001 Principle-001</name></relationship>
+       <relationship xsi:type="Flow" source="Principle-001-001" target="Principle-001-001" identifier="Flow_Principle-001-001_Principle-001-001"><name xml:lang="fr">Flow Principle-001-001 Principle-001-001</name></relationship>
        <relationship xsi:type="Flow" source="Requirement-001" target="Requirement-001" identifier="Flow_Requirement-001_Requirement-001"><name xml:lang="fr">Flow Requirement-001 Requirement-001</name></relationship>
        <relationship xsi:type="Flow" source="Constraint-001" target="Constraint-001" identifier="Flow_Constraint-001_Constraint-001"><name xml:lang="fr">Flow Constraint-001 Constraint-001</name></relationship>
        <relationship xsi:type="Flow" source="Meaning-001" target="Meaning-001" identifier="Flow_Meaning-001_Meaning-001"><name xml:lang="fr">Flow Meaning-001 Meaning-001</name></relationship>
@@ -497,7 +355,7 @@ Une Relation Assignment entre deux élements ayant le même type ArchiMate, pour
         <relationship xsi:type="Assignment" source="BusinessFunction-001" target="BusinessFunction-001" identifier="Assignment_BusinessFunction-001_BusinessFunction-001"><name xml:lang="fr">Assignment BusinessFunction-001 BusinessFunction-001</name></relationship>
         <relationship xsi:type="Assignment" source="BusinessInteraction-001" target="BusinessInteraction-001" identifier="Assignment_BusinessInteraction-001_BusinessInteraction-001"><name xml:lang="fr">Assignment BusinessInteraction-001 BusinessInteraction-001</name></relationship>
         <relationship xsi:type="Assignment" source="BusinessEvent-001" target="BusinessEvent-001" identifier="Assignment_BusinessEvent-001_BusinessEvent-001"><name xml:lang="fr">Assignment BusinessEvent-001 BusinessEvent-001</name></relationship>
-        <relationship xsi:type="Assignment" source="BusinessService-001" target="BusinessService-001" identifier="Assignment_BusinessService-001_BusinessService-001"><name xml:lang="fr">Assignment BusinessService-001 BusinessService-001</name></relationship>
+        <relationship xsi:type="Assignment" source="BusinessServicet-001" target="BusinessServicet-001" identifier="Assignment_BusinessServicet-001_BusinessServicet-001"><name xml:lang="fr">Assignment BusinessServicet-001 BusinessServicet-001</name></relationship>
         <relationship xsi:type="Assignment" source="BusinessObject-001" target="BusinessObject-001" identifier="Assignment_BusinessObject-001_BusinessObject-001"><name xml:lang="fr">Assignment BusinessObject-001 BusinessObject-001</name></relationship>
         <relationship xsi:type="Assignment" source="Contract-001" target="Contract-001" identifier="Assignment_Contract-001_Contract-001"><name xml:lang="fr">Assignment Contract-001 Contract-001</name></relationship>
         <relationship xsi:type="Assignment" source="Representation-001" target="Representation-001" identifier="Assignment_Representation-001_Representation-001"><name xml:lang="fr">Assignment Representation-001 Representation-001</name></relationship>
@@ -536,7 +394,7 @@ Une Relation Assignment entre deux élements ayant le même type ArchiMate, pour
        <relationship xsi:type="Assignment" source="Assessment-001" target="Assessment-001" identifier="Assignment_Assessment-001_Assessment-001"><name xml:lang="fr">Assignment Assessment-001 Assessment-001</name></relationship>
        <relationship xsi:type="Assignment" source="Goal-001" target="Goal-001" identifier="Assignment_Goal-001_Goal-001"><name xml:lang="fr">Assignment Goal-001 Goal-001</name></relationship>
        <relationship xsi:type="Assignment" source="Outcome-001" target="Outcome-001" identifier="Assignment_Outcome-001_Outcome-001"><name xml:lang="fr">Assignment Outcome-001 Outcome-001</name></relationship>
-       <relationship xsi:type="Assignment" source="Principle-001" target="Principle-001" identifier="Assignment_Principle-001_Principle-001"><name xml:lang="fr">Assignment Principle-001 Principle-001</name></relationship>
+       <relationship xsi:type="Assignment" source="Principle-001-001" target="Principle-001-001" identifier="Assignment_Principle-001-001_Principle-001-001"><name xml:lang="fr">Assignment Principle-001-001 Principle-001-001</name></relationship>
        <relationship xsi:type="Assignment" source="Requirement-001" target="Requirement-001" identifier="Assignment_Requirement-001_Requirement-001"><name xml:lang="fr">Assignment Requirement-001 Requirement-001</name></relationship>
        <relationship xsi:type="Assignment" source="Constraint-001" target="Constraint-001" identifier="Assignment_Constraint-001_Constraint-001"><name xml:lang="fr">Assignment Constraint-001 Constraint-001</name></relationship>
        <relationship xsi:type="Assignment" source="Meaning-001" target="Meaning-001" identifier="Assignment_Meaning-001_Meaning-001"><name xml:lang="fr">Assignment Meaning-001 Meaning-001</name></relationship>
@@ -566,7 +424,7 @@ Une Relation Influence entre deux élements ayant le même type ArchiMate, pour 
         <relationship xsi:type="Influence" source="BusinessFunction-001" target="BusinessFunction-001" identifier="Influence_BusinessFunction-001_BusinessFunction-001"><name xml:lang="fr">Influence BusinessFunction-001 BusinessFunction-001</name></relationship>
         <relationship xsi:type="Influence" source="BusinessInteraction-001" target="BusinessInteraction-001" identifier="Influence_BusinessInteraction-001_BusinessInteraction-001"><name xml:lang="fr">Influence BusinessInteraction-001 BusinessInteraction-001</name></relationship>
         <relationship xsi:type="Influence" source="BusinessEvent-001" target="BusinessEvent-001" identifier="Influence_BusinessEvent-001_BusinessEvent-001"><name xml:lang="fr">Influence BusinessEvent-001 BusinessEvent-001</name></relationship>
-        <relationship xsi:type="Influence" source="BusinessService-001" target="BusinessService-001" identifier="Influence_BusinessService-001_BusinessService-001"><name xml:lang="fr">Influence BusinessService-001 BusinessService-001</name></relationship>
+        <relationship xsi:type="Influence" source="BusinessServicet-001" target="BusinessServicet-001" identifier="Influence_BusinessServicet-001_BusinessServicet-001"><name xml:lang="fr">Influence BusinessServicet-001 BusinessServicet-001</name></relationship>
         <relationship xsi:type="Influence" source="BusinessObject-001" target="BusinessObject-001" identifier="Influence_BusinessObject-001_BusinessObject-001"><name xml:lang="fr">Influence BusinessObject-001 BusinessObject-001</name></relationship>
         <relationship xsi:type="Influence" source="Contract-001" target="Contract-001" identifier="Influence_Contract-001_Contract-001"><name xml:lang="fr">Influence Contract-001 Contract-001</name></relationship>
         <relationship xsi:type="Influence" source="Representation-001" target="Representation-001" identifier="Influence_Representation-001_Representation-001"><name xml:lang="fr">Influence Representation-001 Representation-001</name></relationship>
@@ -605,7 +463,7 @@ Une Relation Influence entre deux élements ayant le même type ArchiMate, pour 
        <relationship xsi:type="Influence" source="Assessment-001" target="Assessment-001" identifier="Influence_Assessment-001_Assessment-001"><name xml:lang="fr">Influence Assessment-001 Assessment-001</name></relationship>
        <relationship xsi:type="Influence" source="Goal-001" target="Goal-001" identifier="Influence_Goal-001_Goal-001"><name xml:lang="fr">Influence Goal-001 Goal-001</name></relationship>
        <relationship xsi:type="Influence" source="Outcome-001" target="Outcome-001" identifier="Influence_Outcome-001_Outcome-001"><name xml:lang="fr">Influence Outcome-001 Outcome-001</name></relationship>
-       <relationship xsi:type="Influence" source="Principle-001" target="Principle-001" identifier="Influence_Principle-001_Principle-001"><name xml:lang="fr">Influence Principle-001 Principle-001</name></relationship>
+       <relationship xsi:type="Influence" source="Principle-001-001" target="Principle-001-001" identifier="Influence_Principle-001-001_Principle-001-001"><name xml:lang="fr">Influence Principle-001-001 Principle-001-001</name></relationship>
        <relationship xsi:type="Influence" source="Requirement-001" target="Requirement-001" identifier="Influence_Requirement-001_Requirement-001"><name xml:lang="fr">Influence Requirement-001 Requirement-001</name></relationship>
        <relationship xsi:type="Influence" source="Constraint-001" target="Constraint-001" identifier="Influence_Constraint-001_Constraint-001"><name xml:lang="fr">Influence Constraint-001 Constraint-001</name></relationship>
        <relationship xsi:type="Influence" source="Meaning-001" target="Meaning-001" identifier="Influence_Meaning-001_Meaning-001"><name xml:lang="fr">Influence Meaning-001 Meaning-001</name></relationship>
@@ -635,7 +493,7 @@ Une Relation Realization entre deux élements ayant le même type ArchiMate, pou
         <relationship xsi:type="Realization" source="BusinessFunction-001" target="BusinessFunction-001" identifier="Realization_BusinessFunction-001_BusinessFunction-001"><name xml:lang="fr">Realization BusinessFunction-001 BusinessFunction-001</name></relationship>
         <relationship xsi:type="Realization" source="BusinessInteraction-001" target="BusinessInteraction-001" identifier="Realization_BusinessInteraction-001_BusinessInteraction-001"><name xml:lang="fr">Realization BusinessInteraction-001 BusinessInteraction-001</name></relationship>
         <relationship xsi:type="Realization" source="BusinessEvent-001" target="BusinessEvent-001" identifier="Realization_BusinessEvent-001_BusinessEvent-001"><name xml:lang="fr">Realization BusinessEvent-001 BusinessEvent-001</name></relationship>
-        <relationship xsi:type="Realization" source="BusinessService-001" target="BusinessService-001" identifier="Realization_BusinessService-001_BusinessService-001"><name xml:lang="fr">Realization BusinessService-001 BusinessService-001</name></relationship>
+        <relationship xsi:type="Realization" source="BusinessServicet-001" target="BusinessServicet-001" identifier="Realization_BusinessServicet-001_BusinessServicet-001"><name xml:lang="fr">Realization BusinessServicet-001 BusinessServicet-001</name></relationship>
         <relationship xsi:type="Realization" source="BusinessObject-001" target="BusinessObject-001" identifier="Realization_BusinessObject-001_BusinessObject-001"><name xml:lang="fr">Realization BusinessObject-001 BusinessObject-001</name></relationship>
         <relationship xsi:type="Realization" source="Contract-001" target="Contract-001" identifier="Realization_Contract-001_Contract-001"><name xml:lang="fr">Realization Contract-001 Contract-001</name></relationship>
         <relationship xsi:type="Realization" source="Representation-001" target="Representation-001" identifier="Realization_Representation-001_Representation-001"><name xml:lang="fr">Realization Representation-001 Representation-001</name></relationship>
@@ -674,7 +532,7 @@ Une Relation Realization entre deux élements ayant le même type ArchiMate, pou
        <relationship xsi:type="Realization" source="Assessment-001" target="Assessment-001" identifier="Realization_Assessment-001_Assessment-001"><name xml:lang="fr">Realization Assessment-001 Assessment-001</name></relationship>
        <relationship xsi:type="Realization" source="Goal-001" target="Goal-001" identifier="Realization_Goal-001_Goal-001"><name xml:lang="fr">Realization Goal-001 Goal-001</name></relationship>
        <relationship xsi:type="Realization" source="Outcome-001" target="Outcome-001" identifier="Realization_Outcome-001_Outcome-001"><name xml:lang="fr">Realization Outcome-001 Outcome-001</name></relationship>
-       <relationship xsi:type="Realization" source="Principle-001" target="Principle-001" identifier="Realization_Principle-001_Principle-001"><name xml:lang="fr">Realization Principle-001 Principle-001</name></relationship>
+       <relationship xsi:type="Realization" source="Principle-001-001" target="Principle-001-001" identifier="Realization_Principle-001-001_Principle-001-001"><name xml:lang="fr">Realization Principle-001-001 Principle-001-001</name></relationship>
        <relationship xsi:type="Realization" source="Requirement-001" target="Requirement-001" identifier="Realization_Requirement-001_Requirement-001"><name xml:lang="fr">Realization Requirement-001 Requirement-001</name></relationship>
        <relationship xsi:type="Realization" source="Constraint-001" target="Constraint-001" identifier="Realization_Constraint-001_Constraint-001"><name xml:lang="fr">Realization Constraint-001 Constraint-001</name></relationship>
        <relationship xsi:type="Realization" source="Meaning-001" target="Meaning-001" identifier="Realization_Meaning-001_Meaning-001"><name xml:lang="fr">Realization Meaning-001 Meaning-001</name></relationship>
@@ -704,7 +562,7 @@ Une Relation Specialization entre deux élements ayant le même type ArchiMate, 
         <relationship xsi:type="Specialization" source="BusinessFunction-001" target="BusinessFunction-001" identifier="Specialization_BusinessFunction-001_BusinessFunction-001"><name xml:lang="fr">Specialization BusinessFunction-001 BusinessFunction-001</name></relationship>
         <relationship xsi:type="Specialization" source="BusinessInteraction-001" target="BusinessInteraction-001" identifier="Specialization_BusinessInteraction-001_BusinessInteraction-001"><name xml:lang="fr">Specialization BusinessInteraction-001 BusinessInteraction-001</name></relationship>
         <relationship xsi:type="Specialization" source="BusinessEvent-001" target="BusinessEvent-001" identifier="Specialization_BusinessEvent-001_BusinessEvent-001"><name xml:lang="fr">Specialization BusinessEvent-001 BusinessEvent-001</name></relationship>
-        <relationship xsi:type="Specialization" source="BusinessService-001" target="BusinessService-001" identifier="Specialization_BusinessService-001_BusinessService-001"><name xml:lang="fr">Specialization BusinessService-001 BusinessService-001</name></relationship>
+        <relationship xsi:type="Specialization" source="BusinessServicet-001" target="BusinessServicet-001" identifier="Specialization_BusinessServicet-001_BusinessServicet-001"><name xml:lang="fr">Specialization BusinessServicet-001 BusinessServicet-001</name></relationship>
         <relationship xsi:type="Specialization" source="BusinessObject-001" target="BusinessObject-001" identifier="Specialization_BusinessObject-001_BusinessObject-001"><name xml:lang="fr">Specialization BusinessObject-001 BusinessObject-001</name></relationship>
         <relationship xsi:type="Specialization" source="Contract-001" target="Contract-001" identifier="Specialization_Contract-001_Contract-001"><name xml:lang="fr">Specialization Contract-001 Contract-001</name></relationship>
         <relationship xsi:type="Specialization" source="Representation-001" target="Representation-001" identifier="Specialization_Representation-001_Representation-001"><name xml:lang="fr">Specialization Representation-001 Representation-001</name></relationship>
@@ -743,7 +601,7 @@ Une Relation Specialization entre deux élements ayant le même type ArchiMate, 
        <relationship xsi:type="Specialization" source="Assessment-001" target="Assessment-001" identifier="Specialization_Assessment-001_Assessment-001"><name xml:lang="fr">Specialization Assessment-001 Assessment-001</name></relationship>
        <relationship xsi:type="Specialization" source="Goal-001" target="Goal-001" identifier="Specialization_Goal-001_Goal-001"><name xml:lang="fr">Specialization Goal-001 Goal-001</name></relationship>
        <relationship xsi:type="Specialization" source="Outcome-001" target="Outcome-001" identifier="Specialization_Outcome-001_Outcome-001"><name xml:lang="fr">Specialization Outcome-001 Outcome-001</name></relationship>
-       <relationship xsi:type="Specialization" source="Principle-001" target="Principle-001" identifier="Specialization_Principle-001_Principle-001"><name xml:lang="fr">Specialization Principle-001 Principle-001</name></relationship>
+       <relationship xsi:type="Specialization" source="Principle-001-001" target="Principle-001-001" identifier="Specialization_Principle-001-001_Principle-001-001"><name xml:lang="fr">Specialization Principle-001-001 Principle-001-001</name></relationship>
        <relationship xsi:type="Specialization" source="Requirement-001" target="Requirement-001" identifier="Specialization_Requirement-001_Requirement-001"><name xml:lang="fr">Specialization Requirement-001 Requirement-001</name></relationship>
        <relationship xsi:type="Specialization" source="Constraint-001" target="Constraint-001" identifier="Specialization_Constraint-001_Constraint-001"><name xml:lang="fr">Specialization Constraint-001 Constraint-001</name></relationship>
        <relationship xsi:type="Specialization" source="Meaning-001" target="Meaning-001" identifier="Specialization_Meaning-001_Meaning-001"><name xml:lang="fr">Specialization Meaning-001 Meaning-001</name></relationship>
@@ -773,7 +631,7 @@ Une Relation Triggering entre deux élements ayant le même type ArchiMate, pour
         <relationship xsi:type="Triggering" source="BusinessFunction-001" target="BusinessFunction-001" identifier="Triggering_BusinessFunction-001_BusinessFunction-001"><name xml:lang="fr">Triggering BusinessFunction-001 BusinessFunction-001</name></relationship>
         <relationship xsi:type="Triggering" source="BusinessInteraction-001" target="BusinessInteraction-001" identifier="Triggering_BusinessInteraction-001_BusinessInteraction-001"><name xml:lang="fr">Triggering BusinessInteraction-001 BusinessInteraction-001</name></relationship>
         <relationship xsi:type="Triggering" source="BusinessEvent-001" target="BusinessEvent-001" identifier="Triggering_BusinessEvent-001_BusinessEvent-001"><name xml:lang="fr">Triggering BusinessEvent-001 BusinessEvent-001</name></relationship>
-        <relationship xsi:type="Triggering" source="BusinessService-001" target="BusinessService-001" identifier="Triggering_BusinessService-001_BusinessService-001"><name xml:lang="fr">Triggering BusinessService-001 BusinessService-001</name></relationship>
+        <relationship xsi:type="Triggering" source="BusinessServicet-001" target="BusinessServicet-001" identifier="Triggering_BusinessServicet-001_BusinessServicet-001"><name xml:lang="fr">Triggering BusinessServicet-001 BusinessServicet-001</name></relationship>
         <relationship xsi:type="Triggering" source="BusinessObject-001" target="BusinessObject-001" identifier="Triggering_BusinessObject-001_BusinessObject-001"><name xml:lang="fr">Triggering BusinessObject-001 BusinessObject-001</name></relationship>
         <relationship xsi:type="Triggering" source="Contract-001" target="Contract-001" identifier="Triggering_Contract-001_Contract-001"><name xml:lang="fr">Triggering Contract-001 Contract-001</name></relationship>
         <relationship xsi:type="Triggering" source="Representation-001" target="Representation-001" identifier="Triggering_Representation-001_Representation-001"><name xml:lang="fr">Triggering Representation-001 Representation-001</name></relationship>
@@ -812,7 +670,7 @@ Une Relation Triggering entre deux élements ayant le même type ArchiMate, pour
        <relationship xsi:type="Triggering" source="Assessment-001" target="Assessment-001" identifier="Triggering_Assessment-001_Assessment-001"><name xml:lang="fr">Triggering Assessment-001 Assessment-001</name></relationship>
        <relationship xsi:type="Triggering" source="Goal-001" target="Goal-001" identifier="Triggering_Goal-001_Goal-001"><name xml:lang="fr">Triggering Goal-001 Goal-001</name></relationship>
        <relationship xsi:type="Triggering" source="Outcome-001" target="Outcome-001" identifier="Triggering_Outcome-001_Outcome-001"><name xml:lang="fr">Triggering Outcome-001 Outcome-001</name></relationship>
-       <relationship xsi:type="Triggering" source="Principle-001" target="Principle-001" identifier="Triggering_Principle-001_Principle-001"><name xml:lang="fr">Triggering Principle-001 Principle-001</name></relationship>
+       <relationship xsi:type="Triggering" source="Principle-001-001" target="Principle-001-001" identifier="Triggering_Principle-001-001_Principle-001-001"><name xml:lang="fr">Triggering Principle-001-001 Principle-001-001</name></relationship>
        <relationship xsi:type="Triggering" source="Requirement-001" target="Requirement-001" identifier="Triggering_Requirement-001_Requirement-001"><name xml:lang="fr">Triggering Requirement-001 Requirement-001</name></relationship>
        <relationship xsi:type="Triggering" source="Constraint-001" target="Constraint-001" identifier="Triggering_Constraint-001_Constraint-001"><name xml:lang="fr">Triggering Constraint-001 Constraint-001</name></relationship>
        <relationship xsi:type="Triggering" source="Meaning-001" target="Meaning-001" identifier="Triggering_Meaning-001_Meaning-001"><name xml:lang="fr">Triggering Meaning-001 Meaning-001</name></relationship>
@@ -842,7 +700,7 @@ Une Relation Serving entre deux élements ayant le même type ArchiMate, pour to
         <relationship xsi:type="Serving" source="BusinessFunction-001" target="BusinessFunction-001" identifier="Serving_BusinessFunction-001_BusinessFunction-001"><name xml:lang="fr">Serving BusinessFunction-001 BusinessFunction-001</name></relationship>
         <relationship xsi:type="Serving" source="BusinessInteraction-001" target="BusinessInteraction-001" identifier="Serving_BusinessInteraction-001_BusinessInteraction-001"><name xml:lang="fr">Serving BusinessInteraction-001 BusinessInteraction-001</name></relationship>
         <relationship xsi:type="Serving" source="BusinessEvent-001" target="BusinessEvent-001" identifier="Serving_BusinessEvent-001_BusinessEvent-001"><name xml:lang="fr">Serving BusinessEvent-001 BusinessEvent-001</name></relationship>
-        <relationship xsi:type="Serving" source="BusinessService-001" target="BusinessService-001" identifier="Serving_BusinessService-001_BusinessService-001"><name xml:lang="fr">Serving BusinessService-001 BusinessService-001</name></relationship>
+        <relationship xsi:type="Serving" source="BusinessServicet-001" target="BusinessServicet-001" identifier="Serving_BusinessServicet-001_BusinessServicet-001"><name xml:lang="fr">Serving BusinessServicet-001 BusinessServicet-001</name></relationship>
         <relationship xsi:type="Serving" source="BusinessObject-001" target="BusinessObject-001" identifier="Serving_BusinessObject-001_BusinessObject-001"><name xml:lang="fr">Serving BusinessObject-001 BusinessObject-001</name></relationship>
         <relationship xsi:type="Serving" source="Contract-001" target="Contract-001" identifier="Serving_Contract-001_Contract-001"><name xml:lang="fr">Serving Contract-001 Contract-001</name></relationship>
         <relationship xsi:type="Serving" source="Representation-001" target="Representation-001" identifier="Serving_Representation-001_Representation-001"><name xml:lang="fr">Serving Representation-001 Representation-001</name></relationship>
@@ -881,7 +739,7 @@ Une Relation Serving entre deux élements ayant le même type ArchiMate, pour to
        <relationship xsi:type="Serving" source="Assessment-001" target="Assessment-001" identifier="Serving_Assessment-001_Assessment-001"><name xml:lang="fr">Serving Assessment-001 Assessment-001</name></relationship>
        <relationship xsi:type="Serving" source="Goal-001" target="Goal-001" identifier="Serving_Goal-001_Goal-001"><name xml:lang="fr">Serving Goal-001 Goal-001</name></relationship>
        <relationship xsi:type="Serving" source="Outcome-001" target="Outcome-001" identifier="Serving_Outcome-001_Outcome-001"><name xml:lang="fr">Serving Outcome-001 Outcome-001</name></relationship>
-       <relationship xsi:type="Serving" source="Principle-001" target="Principle-001" identifier="Serving_Principle-001_Principle-001"><name xml:lang="fr">Serving Principle-001 Principle-001</name></relationship>
+       <relationship xsi:type="Serving" source="Principle-001-001" target="Principle-001-001" identifier="Serving_Principle-001-001_Principle-001-001"><name xml:lang="fr">Serving Principle-001-001 Principle-001-001</name></relationship>
        <relationship xsi:type="Serving" source="Requirement-001" target="Requirement-001" identifier="Serving_Requirement-001_Requirement-001"><name xml:lang="fr">Serving Requirement-001 Requirement-001</name></relationship>
        <relationship xsi:type="Serving" source="Constraint-001" target="Constraint-001" identifier="Serving_Constraint-001_Constraint-001"><name xml:lang="fr">Serving Constraint-001 Constraint-001</name></relationship>
        <relationship xsi:type="Serving" source="Meaning-001" target="Meaning-001" identifier="Serving_Meaning-001_Meaning-001"><name xml:lang="fr">Serving Meaning-001 Meaning-001</name></relationship>
@@ -896,74 +754,4 @@ Une Relation Serving entre deux élements ayant le même type ArchiMate, pour to
        <relationship xsi:type="Serving" source="Gap-001" target="Gap-001" identifier="Serving_Gap-001_Gap-001"><name xml:lang="fr">Serving Gap-001 Gap-001</name></relationship>
        <relationship xsi:type="Serving" source="Grouping-001" target="Grouping-001" identifier="Serving_Grouping-001_Grouping-001"><name xml:lang="fr">Serving Grouping-001 Grouping-001</name></relationship>
 
-
-<!--
-Une Relation Association entre deux élements, la source ayant un type donné Resource-001 et la cible ayant tous les types  ayant le même type ArchiMate, pour tous les types ArchiMate
--->
-        <relationship xsi:type="Association" source="Resource-001" target="Resource-002" identifier="Association_Resource-001_Resource-002"><name xml:lang="fr">Association Resource-001->Resource-002</name></relationship>
-        <relationship xsi:type="Association" source="Resource-001" target="Capability-002" identifier="Association_Resource-001_Capability-002"><name xml:lang="fr">Association Resource-001->Capability-002</name></relationship>
-        <relationship xsi:type="Association" source="Resource-001" target="CourseOfAction-002" identifier="Association_CourseOfAction_CourseOfAction-002"><name xml:lang="fr">Association Resource-001->CourseOfAction-002</name></relationship>
-
-        <relationship xsi:type="Association" source="Resource-001" target="BusinessActor-002" identifier="Association_Resource-001_BusinessActor-002"><name xml:lang="fr">Association Resource-001->BusinessActor-002</name></relationship>
-        <relationship xsi:type="Association" source="Resource-001" target="BusinessRole-002" identifier="Association_Resource-001_BusinessRole-002"><name xml:lang="fr">Association Resource-001->BusinessRole-002</name></relationship>
-        <relationship xsi:type="Association" source="Resource-001" target="BusinessCollaboration-002" identifier="Association_Resource-001_BusinessCollaboration-002"><name xml:lang="fr">Association Resource-001->BusinessCollaboration-002</name></relationship>
-        <relationship xsi:type="Association" source="Resource-001" target="BusinessInterface-002" identifier="Association_Resource-001_BusinessInterface-002"><name xml:lang="fr">Association Resource-001->BusinessInterface-002</name></relationship>
-        <relationship xsi:type="Association" source="Resource-001" target="BusinessProcess-002" identifier="Association_Resource-001_BusinessProcess-002"><name xml:lang="fr">Association Resource-001->BusinessProcess-002</name></relationship>
-        <relationship xsi:type="Association" source="Resource-001" target="BusinessFunction-002" identifier="Association_Resource-001_BusinessFunction-002"><name xml:lang="fr">Association Resource-001->BusinessFunction-002</name></relationship>
-        <relationship xsi:type="Association" source="Resource-001" target="BusinessInteraction-002" identifier="Association_Resource-001_BusinessInteraction-002"><name xml:lang="fr">Association Resource-001->BusinessInteraction-002</name></relationship>
-        <relationship xsi:type="Association" source="Resource-001" target="BusinessEvent-002" identifier="Association_Resource-001_BusinessEvent-002"><name xml:lang="fr">Association Resource-001->BusinessEvent-002</name></relationship>
-        <relationship xsi:type="Association" source="Resource-001" target="BusinessService-002" identifier="Association_Resource-001_BusinessService-002"><name xml:lang="fr">Association Resource-001->BusinessService-002</name></relationship>
-        <relationship xsi:type="Association" source="Resource-001" target="BusinessObject-002" identifier="Association_Resource-001_BusinessObject-002"><name xml:lang="fr">Association Resource-001->BusinessObject-002</name></relationship>
-        <relationship xsi:type="Association" source="Resource-001" target="Contract-002" identifier="Association_Resource-001_Contract-002"><name xml:lang="fr">Association Resource-001->Contract-002</name></relationship>
-        <relationship xsi:type="Association" source="Resource-001" target="Representation-002" identifier="Association_Resource-001_Representation-002"><name xml:lang="fr">Association Resource-001->Representation-002</name></relationship>
-        <relationship xsi:type="Association" source="Resource-001" target="Product-002" identifier="Association_Resource-001_Product-002"><name xml:lang="fr">Association Resource-001->Product-002</name></relationship>
-
-       <relationship xsi:type="Association" source="Resource-001" target="ApplicationComponent-002" identifier="Association_Resource-001_ApplicationComponent-002"><name xml:lang="fr">Association Resource-001->ApplicationComponent-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="ApplicationCollaboration-002" identifier="Association_Resource-001_ApplicationCollaboration-002"><name xml:lang="fr">Association Resource-001->ApplicationCollaboration-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="ApplicationInterface-002" identifier="Association_Resource-001_ApplicationInterface-002"><name xml:lang="fr">Association Resource-001->ApplicationInterface-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="ApplicationFunction-002" identifier="Association_Resource-001_ApplicationFunction-002"><name xml:lang="fr">Association Resource-001->ApplicationFunction-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="ApplicationInteraction-002" identifier="Association_Resource-001_ApplicationInteraction-002"><name xml:lang="fr">Association Resource-001->ApplicationInteraction-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="ApplicationProcess-002" identifier="Association_Resource-001_ApplicationProcess-002"><name xml:lang="fr">Association Resource-001->ApplicationProcess-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="ApplicationEvent-002" identifier="Association_Resource-001_ApplicationEvent-002"><name xml:lang="fr">Association Resource-001->ApplicationEvent-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="ApplicationService-002" identifier="Association_Resource-001_ApplicationService-002"><name xml:lang="fr">Association Resource-001->Product-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="DataObject-002" identifier="Association_Resource-001_DataObject-002"><name xml:lang="fr">Association Resource-001->DataObject-002</name></relationship>
-      
-       <relationship xsi:type="Association" source="Resource-001" target="Node-002" identifier="Association_Resource-001_Node-002"><name xml:lang="fr">Association Resource-001->Node-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="Device-002" identifier="Association_Resource-001_Device-002"><name xml:lang="fr">Association Resource-001->Device-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="SystemSoftware-002" identifier="Association_Resource-001_SystemSoftware-002"><name xml:lang="fr">Association Resource-001->SystemSoftware-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="TechnologyCollaboration-002" identifier="Association_Resource-001_TechnologyCollaboration-002"><name xml:lang="fr">Association Resource-001->TechnologyCollaboration-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="TechnologyInterface-002" identifier="Association_Resource-001_TechnologyInterface-002"><name xml:lang="fr">Association Resource-001->TechnologyInterface-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="Path-002" identifier="Association_Resource-001_Path-002"><name xml:lang="fr">Association Resource-001->Path-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="CommunicationNetwork-002" identifier="Association_Resource-001_CommunicationNetwork-002"><name xml:lang="fr">Association Resource-001->CommunicationNetwork-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="TechnologyFunction-002" identifier="Association_Resource-001_TechnologyFunction-002"><name xml:lang="fr">Association Resource-001->TechnologyFunction-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="TechnologyProcess-002" identifier="Association_Resource-001_TechnologyProcess-002"><name xml:lang="fr">Association Resource-001->TechnologyProcess-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="TechnologyInteraction-002" identifier="Association_Resource-001_TechnologyInteraction-002"><name xml:lang="fr">Association Resource-001->TechnologyInteraction-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="TechnologyEvent-002" identifier="Association_Resource-001_TechnologyEvent-002"><name xml:lang="fr">Association Resource-001->TechnologyEvent-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="TechnologyService-002" identifier="Association_Resource-001_TechnologyService-002"><name xml:lang="fr">Association Resource-001->TechnologyService-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="Artifact-002" identifier="Association_Resource-001_Artifact-002"><name xml:lang="fr">Association Resource-001->Artifact-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="Equipment-002" identifier="Association_Resource-001_Equipment-002"><name xml:lang="fr">Association Resource-001->Equipment-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="Facility-002" identifier="Association_Resource-001_Facility-002"><name xml:lang="fr">Association Resource-001->Facility-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="DistributionNetwork-002" identifier="Association_Resource-001_DistributionNetwork-002"><name xml:lang="fr">Association Resource-001->DistributionNetwork-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="Material-002" identifier="Association_Resource-001_Material-002"><name xml:lang="fr">Association Resource-001->Material-002</name></relationship>
-
-       <relationship xsi:type="Association" source="Resource-001" target="Stakeholder-002" identifier="Association_Resource-001_Stakeholder-002"><name xml:lang="fr">Association Resource-001->Stakeholder-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="Driver-002" identifier="Association_Resource-001_Driver-002"><name xml:lang="fr">Association Resource-001->Driver-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="Assessment-002" identifier="Association_Resource-001_Assessment-002"><name xml:lang="fr">Association Resource-001->Assessment-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="Goal-002" identifier="Association_Resource-001_Goal-002"><name xml:lang="fr">Association Resource-001->Goal-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="Outcome-002" identifier="Association_Resource-001_Outcome-002"><name xml:lang="fr">Association Resource-001->Outcome-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="Principle-002" identifier="Association_Resource-001_Principle-002"><name xml:lang="fr">Association Resource-001->Principle-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="Requirement-002" identifier="Association_Resource-001_Requirement-002"><name xml:lang="fr">Association Resource-001->Requirement-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="Constraint-002" identifier="Association_Resource-001_Constraint-002"><name xml:lang="fr">Association Resource-001->Constraint-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="Meaning-002" identifier="Association_Resource-001_Meaning-002"><name xml:lang="fr">Association Resource-001->Meaning-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="Value-002" identifier="Association_Resource-001_Value-002"><name xml:lang="fr">Association Resource-001->Value-002</name></relationship>
-
-       <relationship xsi:type="Association" source="Resource-001" target="WorkPackage-002" identifier="Association_Resource-001_WorkPackage-002"><name xml:lang="fr">Association Resource-001->WorkPackage-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="Deliverable-002" identifier="Association_Resource-001_Deliverable-002"><name xml:lang="fr">Association Resource-001->Deliverable-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="ImplementationEvent-002" identifier="Association_Resource-001_ImplementationEvent-002"><name xml:lang="fr">Association Resource-001->ImplementationEvent-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="Plateau-002" identifier="Association_Resource-001_Plateau-002"><name xml:lang="fr">Association Resource-001->Plateau-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="Location-002" identifier="Association_Resource-001_Location-002"><name xml:lang="fr">Association Resource-001->Location-002</name></relationship>
- 
-       <relationship xsi:type="Association" source="Resource-001" target="Gap-002" identifier="Association_Resource-001_Gap-002"><name xml:lang="fr">Association Resource-001->Gap-002</name></relationship>
-       <relationship xsi:type="Association" source="Resource-001" target="Grouping-002" identifier="Association_Resource-001_Grouping-002"><name xml:lang="fr">Association Resource-001->Grouping-002</name></relationship>
 </relationships>
-</model>
