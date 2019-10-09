@@ -6,6 +6,7 @@
         <schemaversion>3.6</schemaversion>
     </metadata>
     <elements>
+    
         <element xsi:type="Resource" identifier="Resource"><name xml:lang="fr">Resource</name></element>
         <element xsi:type="Capability" identifier="Capability"><name xml:lang="fr">Capability</name></element>
         <element xsi:type="CourseOfAction" identifier="CourseOfAction"><name xml:lang="fr">CourseOfAcion</name></element>
