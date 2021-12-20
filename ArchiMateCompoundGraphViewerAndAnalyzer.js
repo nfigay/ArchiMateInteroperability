@@ -1,5 +1,5 @@
 hardcoded_elems = [
-  {group: "nodes",data: { id: "archimate",label: "ArchiMate",type</svg>ype: "model",securityLevel: "securityLevel3"}},
+  {group: "nodes",data: { id: "archimate",label: "ArchiMate",type: "model",securityLevel: "securityLevel3"}},
   {group: "nodes",data: {parent: "archimate", id: "business",type: "layer",label: "Business layer",securityLevel: "securityLevel3"}},
   {group: "nodes",data: {parent: "archimate", id: "application",type: "layer",label: "Application layer",securityLevel: "securityLevel3"}},
   {group: "nodes",data: {parent: "archimate", id: "techno",type: "layer",label: "technology & physical layer",securityLevel: "securityLevel3"}},
@@ -7,12 +7,40 @@ hardcoded_elems = [
   {group: "nodes",data: {parent: "archimate", id: "motivation",type: "layer",label: "Motivation layer",securityLevel: "securityLevel3"}},
   {group: "nodes",data: {parent: "archimate", id: "imp",type: "layer",label: "Implementation & Migration layer",securityLevel: "securityLevel3"}},
   {group: "nodes",data: {parent: "archimate",id: "other",type: "layer",label: "other",securityLevel: "securityLevel3"}},
-  {group: "nodes",data: {parent: "archimate",id: "relations",label: "Relations",securityLevel: "securityLevel3"}},
-  {group: "nodes",data: {parent: "archimate",id: "meta",label: "Meta",securityLevel: "securityLevel3"}},
-  {group: "nodes",data: {parent: "archimate",id: "visual",label: "Visual",securityLevel: "securityLevel3"}},
-  {group: "nodes",data: {parent: "11",id: "extensionBusinessActor_DMN",label: "Business Actor Extensions DMN",securityLevel: "securityLevel3"}},
-  {group: "nodes",data: {parent: "11",id: "extensionBusinessActor_DDMS", type:"extension",label: "Business Actor Extensions DDMS",securityLevel: "securityLevel3"}},
-  {group: "nodes",data: {parent: "63",id: "extensionWorkpackage_DMN", type:"extension",label: "Workpackage Extensions DMN",securityLevel: "securityLevel3"}},
+  {group: "nodes",data: {parent: "archimate",id: "relations",type:"relations",label: "Relations",securityLevel: "securityLevel3"}},
+  
+  {group: "nodes",data: {parent: "relations",id: "relations_G1",type:"grouping",label: ""}},
+  {group: "nodes",data: {parent: "relations",id: "relations_G2",type:"grouping",label: ""}}, 
+
+  {group: "nodes",data: {parent: "relations",id: "accessE",type:"access",label: ""}},
+  {group: "nodes",data: {parent: "relations",id: "aggregationE",type:"aggregation",label: ""}},  
+  {group: "nodes",data: {parent: "relations",id: "assignmentE",type:"assignment",label: ""}},   
+  {group: "nodes",data: {parent: "relations",id: "associationE",type:"association",label: ""}}, 
+  {group: "nodes",data: {parent: "relations",id: "compositionE",type:"composition",label: ""}},   
+  {group: "nodes",data: {parent: "relations",id: "flowE",type:"flow",label: ""}}, 
+  {group: "nodes",data: {parent: "relations",id: "influenceE",type:"influence",label: ""}},
+  {group: "nodes",data: {parent: "relations",id: "realizationE",type:"realization",label: ""}}, 
+  {group: "nodes",data: {parent: "relations",id: "servingE",type:"serving",label: ""}},
+  {group: "nodes",data: {parent: "relations",id: "specializationE",type:"specialization",label: ""}},  
+  {group: "nodes",data: {parent: "relations",id: "triggeringE",type:"triggering",label: ""}},   
+  
+  
+  {group: "edges",data: {id: "relations_association",type:"assocation-relationship",label: "association",source:"relations_G1", target:'relations_G2'}},
+  {group: "edges",data: {id: "relations_aggregation",type:"aggregation-relationship",label: "aggregation",source:"relations_G1", target:'relations_G2'}},
+  {group: "edges",data: {id: "relations_assignment",type:"assignment-relationship",label: "assingment",source:"relations_G1", target:'relations_G2'}},
+  {group: "edges",data: {id: "relations_composition",type:"composition-relationship",label: "composition",source:"relations_G1", target:'relations_G2'}},
+  {group: "edges",data: {id: "relations_flow",type:"flow-relationship",label: "flow",source:"relations_G1", target:'relations_G2'}},
+  {group: "edges",data: {id: "relations_specialisation",type:"specialisation-relationship",label: "specialistion",source:"relations_G1", target:'relations_G2'}},
+  {group: "edges",data: {id: "relations_influence",type:"influence-relationship",label: "influence",source:"relations_G1", target:'relations_G2'}},
+  {group: "edges",data: {id: "relations_access",type:"access-relationship",label: "access",source:"relations_G1", target:'relations_G2'}},
+  {group: "edges",data: {id: "relations_realization",type:"realization-relationship",label: "realization",source:"relations_G1", target:'relations_G2'}},
+  {group: "edges",data: {id: "relations_serving",type:"serving-relationship",label: "serving",source:"relations_G1", target:'relations_G2'}},
+  {group: "edges",data: {id: "relations_triggering",type:"triggering-relationship",label: "triggering",source:"relations_G1", target:'relations_G2'}},
+  
+  {group: "nodes",data: {parent: "archimate",id: "meta",type:"metamodel", label: "Meta",securityLevel: "securityLevel3"}},
+  {group: "nodes",data: {parent: "archimate",id: "drawing",label: "Drawing",type:"drawing",securityLevel: "securityLevel3"}},
+  {group: "nodes",data: {parent: "11",id: "extensionBusinessActor_DMN", type:"extension",label: "Business Actor Extensions DMN",securityLevel: "securityLevel3"}},
+   {group: "nodes",data: {parent: "63",id: "extensionWorkpackage_DMN", type:"extension",label: "Workpackage Extensions DMN",securityLevel: "securityLevel3"}},
   
   {group: "nodes",data: {parent: "application",id: "01",label: "application-collaboration",type: "application-collaboration",securityLevel: "securityLevel3"}},
   {group: "nodes",data: {parent: "application",id: "02",label: "application-component",type: "application-component",securityLevel: "securityLevel3"}},
@@ -50,7 +78,8 @@ hardcoded_elems = [
   {group: "nodes",data: {parent: "techno"     ,id: "32",label: "facility",type: "facility",securityLevel: "securityLevel3"}},
   {group: "nodes",data: {parent: "imp"        ,id: "33",label: "gap",type: "gap",securityLevel: "securityLevel3"}},
   {group: "nodes",data: {parent: "motivation" ,id: "34",label: "goal",type: "goal",securityLevel: "securityLevel3"}},
-  {group: "nodes",data: {parent: "visual"     ,id: "35",label: "group",type: "group",securityLevel: "securityLevel3"}},
+  {group: "nodes",data: {parent: "drawing"    ,id: "35",label: "group",type: "group",securityLevel: "securityLevel3"}},
+  {group: "nodes",data: {parent: "drawing"    ,id: "75",label: "note",type: "note",securityLevel: "securityLevel3"}},
   {group: "nodes",data: {parent: "other"      ,id: "36",label: "grouping",type: "grouping",securityLevel: "securityLevel3"}},
   {group: "nodes",data: {parent: "imp"        ,id: "37",label: "implementation-event",type: "implementation-event",securityLevel: "securityLevel3"}},
   {group: "nodes",data: {parent: "meta"       ,id: "38",label: "layer",type: "layer",securityLevel: "securityLevel3"}},
@@ -606,7 +635,6 @@ function application_process_svg() { return "data:image/svg+xml;base64," + btoa(
 function application_service_svg() { return "data:image/svg+xml;base64," + btoa(application_service.outerHTML);}
 function artifact_svg() { return "data:image/svg+xml;base64," + btoa(artifact.outerHTML);}
 function assessment_svg() { return "data:image/svg+xml;base64," + btoa(assessment.outerHTML);}
-//function association_svg() { return "data:image/svg+xml;base64," + btoa(association.outerHTML);
 function business_collaboration_svg() {  return "data:image/svg+xml;base64," + btoa(business_collaboration.outerHTML);}
 function business_event_svg() {  return "data:image/svg+xml;base64," + btoa(business_event.outerHTML);}
 function business_function_svg() {  return "data:image/svg+xml;base64," + btoa(business_function.outerHTML);}
@@ -666,6 +694,10 @@ function workpackage_svg() {  return "data:image/svg+xml;base64," + btoa(workpac
 function view_svg() {  return "data:image/svg+xml;base64," + btoa(view.outerHTML);}
 function viewpoint_svg() {  return "data:image/svg+xml;base64," + btoa(viewpoint.outerHTML);}
 function extension_svg() {  return "data:image/svg+xml;base64," + btoa(extension.outerHTML);}
+function relations_svg() {  return "data:image/svg+xml;base64," + btoa(relations.outerHTML);}
+function drawing_svg()   {  return "data:image/svg+xml;base64," + btoa(drawing.outerHTML);}
+function note_svg()      {  return "data:image/svg+xml;base64," + btoa(note.outerHTML);}
+function metamodel_svg() {  return "data:image/svg+xml;base64," + btoa(metamodel.outerHTML);}
 
 function business_ecosystem_svg() {  return "data:image/svg+xml;base64," + btoa(business_ecosystem.outerHTML); }
 function enterprise_network_svg() {  return "data:image/svg+xml;base64," + btoa(enterprise_network.outerHTML); }
@@ -678,9 +710,36 @@ function team_svg() {  return "data:image/svg+xml;base64," + btoa(team.outerHTML
 function person_svg() {  return "data:image/svg+xml;base64," + btoa(person.outerHTML); }
 function not_defined_svg() {  return "data:image/svg+xml;base64," + btoa(not_defined.outerHTML); }
 
+function access_svg() {  return "data:image/svg+xml;base64," + btoa(access.outerHTML); }
+function aggregation_svg() {  return "data:image/svg+xml;base64," + btoa(aggregation.outerHTML); }
+function assignment_svg() {  return "data:image/svg+xml;base64," + btoa(assignment.outerHTML); }
+function association_svg() {  return "data:image/svg+xml;base64," + btoa(association.outerHTML); }
+function composition_svg() {  return "data:image/svg+xml;base64," + btoa(composition.outerHTML); }
+function flow_svg() {  return "data:image/svg+xml;base64," + btoa(flow.outerHTML); }
+function influence_svg() {  return "data:image/svg+xml;base64," + btoa(influence.outerHTML); }
+function realization_svg() {  return "data:image/svg+xml;base64," + btoa(realization.outerHTML); }
+function serving_svg() {  return "data:image/svg+xml;base64," + btoa(serving.outerHTML); }
+function specialization_svg() {  return "data:image/svg+xml;base64," + btoa(specialization.outerHTML); }
+function triggering_svg() {  return "data:image/svg+xml;base64," + btoa(triggering.outerHTML); }
+
+
 function ArchiMate(type) {
   const rectangle = "rectangle";
   switch (type) {
+    
+	case "access"                    :return access_svg();                           break; 
+    case "aggregation"               :return aggregationt_svg();                     break;
+    case "assignment"                :return assignment_svg();                       break;
+	case "association"               :return association_svg();                      break;
+	case "composition"               :return composition_svg();                      break;
+    case "flow"                      :return flow_svg();                             break;
+    case "influence"                 :return influence_svg();                        break;
+    case "realization"               :return realization_svg();                      break;
+    case "serving"                   :return serving_svg();                          break;
+    case "specialization"            :return specialization_svg();                   break;
+    case "triggering"                :return triggering_svg();                       break;
+
+
     case "workpackage"               :return workpackage_svg();                      break;
     case "enterprise"                :return enterprise_svg();                       break;
     case "project"                   :return project_svg();                          break;
@@ -701,8 +760,8 @@ function ArchiMate(type) {
     case "application-process"       :return application_process_svg();              break;
     case "application-service"       :return application_service_svg();              break;
     case "assessment"                :return assessment_svg();                       break;
-    case "assignment"                :return assignment_svg();                       break;
-//  case "association"               :return association_svg();                      break;
+
+
     case "business-actor"            :return business_actor_svg();                   break;
     case "business-collaboration"    :return business_collaboration_svg();           break;
     case "business-function"         :return business_function_svg();                break;
@@ -760,6 +819,10 @@ function ArchiMate(type) {
     case "view"                      :return view_svg();                             break;
     case "viewpoint"                 :return viewpoint_svg();                        break;   
     case "extension"                 :return extension_svg();                        break; 
+	case "relations"                 :return relations_svg();                        break; 
+	case "drawing"                   :return drawing_svg();                          break; 
+    case "note"                      :return note_svg();                             break; 
+    case "metamodel"                 :return metamodel_svg();                             break;
     default                          :return not_defined_svg();                      break;
   }
 }
